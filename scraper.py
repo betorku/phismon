@@ -3,7 +3,6 @@ import datetime
 import requests
 import os
 
-# Pulls the key securely from GitHub Secrets
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 
 def fetch_search_results():
@@ -13,50 +12,62 @@ def fetch_search_results():
 
     url = "https://api.tavily.com/search"
     
-    # Exclude list focusing on Social Media and the official site
-    # This ensures your 50 results are high-value targets
-    social_media_and_official = [
-        "bni.co.id", "www.bni.co.id", "facebook.com", "instagram.com", 
-        "twitter.com", "x.com", "linkedin.com", "youtube.com", 
-        "tiktok.com", "pinterest.com", "reddit.com", "threads.net"
+    # We broaden the query to look for "action-oriented" phishing terms
+    # Using terms like 'update', 'verifikasi', and 'maintenance' 
+    # which are commonly used in Indonesian banking phish kits.
+    queries = [
+        "BNI Direct login update verifikasi",
+        "BNI Direct maintenance login Indonesia",
+        "bnidirect lookalike login"
     ]
-
-    payload = {
-        "api_key": TAVILY_API_KEY,
-        # Modified query to force Indonesia context
-        "query": "BNI Direct Indonesia",
-        "search_depth": "advanced",
-        "max_results": 100,
-        "exclude_domains": social_media_and_official
-    }
     
     all_suspicious_urls = []
-    
-    try:
-        response = requests.post(url, json=payload)
-        if response.status_code == 200:
-            data = response.json()
-            for result in data.get('results', []):
-                all_suspicious_urls.append(result['url'])
-        else:
-            print(f"Tavily API Error: {response.status_code} - {response.text}")
-    except Exception as e:
-        print(f"Request failed: {e}")
+    social_media_and_official = [
+        "bni.co.id", "facebook.com", "instagram.com", "twitter.com", 
+        "x.com", "linkedin.com", "youtube.com", "tiktok.com"
+    ]
 
-    return all_suspicious_urls
+    for q in queries:
+        payload = {
+            "api_key": TAVILY_API_KEY,
+            "query": q,
+            "search_depth": "advanced",
+            "max_results": 25,
+            "exclude_domains": social_media_and_official
+        }
+        
+        try:
+            response = requests.post(url, json=payload)
+            if response.status_code == 200:
+                data = response.json()
+                for result in data.get('results', []):
+                    all_suspicious_urls.append(result['url'])
+        except Exception as e:
+            print(f"Request failed for query '{q}': {e}")
+
+    # Remove duplicates
+    return list(set(all_suspicious_urls))
 
 def analyze_urls(scraped_urls):
     results = []
-    target_brand = "bni"
     
     for url in scraped_urls:
-        domain = url.split("//")[-1].split("/")[0]
+        domain = url.split("//")[-1].split("/")[0].lower()
         
+        # IMPROVED LOGIC: Lookalike Detection
+        # This catches "bnidret", "bni-direct", "bni.login", etc.
         status = "Safe"
-        if target_brand in domain.lower():
-            status = "Critical" 
-        elif any(kw in domain.lower() for kw in ["login", "secure", "portal", "auth"]):
-            status = "Suspicious" 
+        
+        # Rule 1: Direct name matching or common typos
+        is_lookalike = any(x in domain for x in ["bni", "bn1", "bnid", "direct"])
+        
+        # Rule 2: Suspicious keywords in the URL path
+        has_suspicious_path = any(kw in url.lower() for kw in ["login", "verif", "update", "secure"])
+
+        if is_lookalike and has_suspicious_path:
+            status = "Critical"
+        elif is_lookalike or has_suspicious_path:
+            status = "Suspicious"
             
         results.append({
             "url": url,
@@ -65,16 +76,17 @@ def analyze_urls(scraped_urls):
             "timestamp": datetime.datetime.now().isoformat()
         })
         
-    return results
+    # Sort results so Critical ones appear at the top
+    sorted_results = sorted(results, key=lambda x: (x['status'] != 'Critical', x['status'] != 'Suspicious'))
+    return sorted_results[:50]
 
 if __name__ == "__main__":
-    print("Starting Focused Threat Crawler (Tavily Engine)...")
+    print("Starting Advanced Threat Scraper...")
     raw_urls = fetch_search_results()
+    print(f"Total unique URLs found: {len(raw_urls)}")
     
-    print(f"Found {len(raw_urls)} non-social media links. Analyzing threats...")
     threat_data = analyze_urls(raw_urls)
     
     with open("data.json", "w") as f:
         json.dump(threat_data, f, indent=4)
-        
-    print("Analysis complete. Data saved to data.json")
+    print("Analysis complete.")
