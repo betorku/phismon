@@ -12,20 +12,20 @@ def fetch_search_results():
 
     url = "https://api.tavily.com/search"
     
-    # We broaden the query to look for "action-oriented" phishing terms
-    # Using terms like 'update', 'verifikasi', and 'maintenance' 
-    # which are commonly used in Indonesian banking phish kits.
+    # 4 distinct queries to ensure we hit the 100-result quota
     queries = [
         "BNI Direct login update verifikasi",
         "BNI Direct maintenance login Indonesia",
+        "bnidirect portal login",
         "bnidirect lookalike login"
     ]
     
     all_suspicious_urls = []
-   # Still passing these to the API to reduce initial noise
+    
+    # This is the list we'll pass to the API
     exclude_list = [
-        "bni.co.id", "bnidirect.bni.co.id", "facebook.com", 
-        "instagram.com", "twitter.com", "x.com", "linkedin.com"
+        "bni.co.id", "facebook.com", "instagram.com", "twitter.com", 
+        "x.com", "linkedin.com", "youtube.com", "tiktok.com"
     ]
 
     for q in queries:
@@ -33,8 +33,8 @@ def fetch_search_results():
             "api_key": TAVILY_API_KEY,
             "query": q,
             "search_depth": "advanced",
-            "max_results": 25,
-            "exclude_domains": social_media_and_official
+            "max_results": 40, # Getting enough raw data to filter down to 100
+            "exclude_domains": exclude_list
         }
         
         try:
@@ -42,7 +42,15 @@ def fetch_search_results():
             if response.status_code == 200:
                 data = response.json()
                 for result in data.get('results', []):
+                    target_url = result['url'].lower()
+                    
+                    # THE NUCLEAR FILTER: Subdomain protection
+                    if "bni.co.id" in target_url:
+                        continue
+                        
                     all_suspicious_urls.append(result['url'])
+            else:
+                print(f"API Error for query '{q}': {response.status_code}")
         except Exception as e:
             print(f"Request failed for query '{q}': {e}")
 
@@ -55,14 +63,11 @@ def analyze_urls(scraped_urls):
     for url in scraped_urls:
         domain = url.split("//")[-1].split("/")[0].lower()
         
-        # IMPROVED LOGIC: Lookalike Detection
-        # This catches "bnidret", "bni-direct", "bni.login", etc.
+        # Scoring logic to catch "bnidret", "bni-direct", etc.
         status = "Safe"
         
-        # Rule 1: Direct name matching or common typos
+        # Logic: Flag domains that look like BNI but aren't official
         is_lookalike = any(x in domain for x in ["bni", "bn1", "bnid", "direct"])
-        
-        # Rule 2: Suspicious keywords in the URL path
         has_suspicious_path = any(kw in url.lower() for kw in ["login", "verif", "update", "secure"])
 
         if is_lookalike and has_suspicious_path:
@@ -79,15 +84,17 @@ def analyze_urls(scraped_urls):
         
     # Sort results so Critical ones appear at the top
     sorted_results = sorted(results, key=lambda x: (x['status'] != 'Critical', x['status'] != 'Suspicious'))
-    return sorted_results[:50]
+    
+    # Return exactly 100 results as requested
+    return sorted_results[:100]
 
 if __name__ == "__main__":
-    print("Starting Advanced Threat Scraper...")
+    print("Starting Advanced Threat Scraper (100-Result Mode)...")
     raw_urls = fetch_search_results()
-    print(f"Total unique URLs found: {len(raw_urls)}")
+    print(f"Total unique non-official URLs found: {len(raw_urls)}")
     
     threat_data = analyze_urls(raw_urls)
     
     with open("data.json", "w") as f:
         json.dump(threat_data, f, indent=4)
-    print("Analysis complete.")
+    print(f"Analysis complete. {len(threat_data)} items saved to data.json")
