@@ -32,4 +32,5 @@ jobs:
           git config --local user.name "Threat Crawler Bot"
           git add data.json
           git commit -m "Update hourly threat data" || echo "No new threats found"
+          git pull --rebase origin main
           git push
