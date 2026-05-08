@@ -2,18 +2,20 @@ name: Hourly Threat Crawler
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs at minute 0 of every hour
-  workflow_dispatch: # Allows manual click to run
+    - cron: '0 * * * *' 
+  workflow_dispatch: 
 
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed to save data.json
+      contents: write 
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # This tells GitHub to fetch all history, preventing sync errors
 
       - name: Setup Python
         uses: actions/setup-python@v4
