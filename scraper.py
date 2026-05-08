@@ -1,26 +1,29 @@
 import json
 import datetime
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 def fetch_search_results():
-    # Target keyword and excluding the official domain
-    query = '"BNI Direct" -site:bni.co.id'
+    # Make the query look like a normal human search to avoid DDG bot detection
+    query = 'BNI Direct' 
     all_suspicious_urls = []
     
     try:
-        # DDGS searches without needing an API key
         with DDGS() as ddgs:
-            # region='id-id' targets Indonesia, max_results limits to top 20
+            # Removed safesearch param as it can sometimes trigger strict filters
             results = ddgs.text(
                 query, 
                 region='id-id', 
-                safesearch='off', 
-                max_results=20
+                max_results=30 # Increased to 30 to account for the official links we will drop
             )
             
-            for r in results:
-                # duckduckgo_search returns a dictionary with 'href' for the URL
-                all_suspicious_urls.append(r['href'])
+            if results:
+                for r in results:
+                    url = r.get('href', '')
+                    # The Developer Workaround: Manually exclude the official site in Python
+                    if 'bni.co.id' not in url.lower() and url != '':
+                        all_suspicious_urls.append(url)
+            else:
+                print("DuckDuckGo returned an empty response. IP might be temporarily rate-limited.")
                 
     except Exception as e:
         print(f"Error during search: {e}")
@@ -34,7 +37,6 @@ def analyze_urls(scraped_urls):
     for url in scraped_urls:
         domain = url.split("//")[-1].split("/")[0]
         
-        # Threat logic
         status = "Safe"
         if target_brand in domain.lower():
             status = "Critical" 
@@ -54,7 +56,7 @@ if __name__ == "__main__":
     print("Starting Threat Crawler (DuckDuckGo Engine)...")
     raw_urls = fetch_search_results()
     
-    print(f"Found {len(raw_urls)} external links. Analyzing threats...")
+    print(f"Found {len(raw_urls)} external links after filtering. Analyzing threats...")
     threat_data = analyze_urls(raw_urls)
     
     with open("data.json", "w") as f:
