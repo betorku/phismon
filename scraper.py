@@ -32,7 +32,7 @@ def fetch_search_results():
             "api_key": TAVILY_API_KEY,
             "query": q,
             "search_depth": "advanced",
-            "max_results": 25,
+            "max_results": 100,
             "exclude_domains": social_media_and_official
         }
         
