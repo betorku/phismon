@@ -14,10 +14,10 @@ def fetch_search_results():
     
     # 4 distinct queries to ensure we hit the 100-result quota
     queries = [
-        "BNI Direct login update verifikasi",
-        "BNI Direct maintenance login Indonesia",
-        "bnidirect portal login",
+        "BNI Direct login",
+        "bnidirect login",
         "bnidirect lookalike login"
+        "bnidirect lookalike"
     ]
     
     all_suspicious_urls = []
