@@ -1,1 +1,1 @@
-ddgs
+requests
