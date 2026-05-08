@@ -2,7 +2,7 @@ name: Hourly Threat Crawler
 
 on:
   schedule:
-    - cron: '0 * * * *' 
+    - cron: '0 * * * *' # Set back to a stable 1-hour interval
   workflow_dispatch: 
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # This tells GitHub to fetch all history, preventing sync errors
+          fetch-depth: 0 
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -26,13 +26,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Execute Scraper
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python scraper.py
 
       - name: Save Results to Repository
         run: |
           git config --local user.email "security@automation.bot"
           git config --local user.name "Threat Crawler Bot"
+          git pull origin main --rebase
           git add data.json
-          git commit -m "Update hourly threat data" || echo "No new threats found"
-          git pull --rebase origin main
-          git push
+          git commit -m "Update threat data" || echo "No changes to commit"
+          git push origin main
