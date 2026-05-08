@@ -12,16 +12,22 @@ def fetch_search_results():
         return []
 
     url = "https://api.tavily.com/search"
+    
+    # Exclude list focusing on Social Media and the official site
+    # This ensures your 50 results are high-value targets
+    social_media_and_official = [
+        "bni.co.id", "www.bni.co.id", "facebook.com", "instagram.com", 
+        "twitter.com", "x.com", "linkedin.com", "youtube.com", 
+        "tiktok.com", "pinterest.com", "reddit.com", "threads.net"
+    ]
+
     payload = {
         "api_key": TAVILY_API_KEY,
-        "query": "BNI Direct",
-        "search_depth": "advanced", # Pulls higher quality, deeper web results
-        "include_answer": False,
-        "include_images": False,
-        "include_raw_content": False,
+        # Modified query to force Indonesia context
+        "query": "BNI Direct login Indonesia Indonesian",
+        "search_depth": "advanced",
         "max_results": 50,
-        # Tavily explicitly strips these out before returning data to us
-        "exclude_domains": ["bni.co.id", "www.bni.co.id"] 
+        "exclude_domains": social_media_and_official
     }
     
     all_suspicious_urls = []
@@ -62,10 +68,10 @@ def analyze_urls(scraped_urls):
     return results
 
 if __name__ == "__main__":
-    print("Starting Threat Crawler (Tavily Engine)...")
+    print("Starting Focused Threat Crawler (Tavily Engine)...")
     raw_urls = fetch_search_results()
     
-    print(f"Found {len(raw_urls)} external links. Analyzing threats...")
+    print(f"Found {len(raw_urls)} non-social media links. Analyzing threats...")
     threat_data = analyze_urls(raw_urls)
     
     with open("data.json", "w") as f:
