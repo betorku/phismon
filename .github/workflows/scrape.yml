@@ -34,7 +34,15 @@ jobs:
         run: |
           git config --local user.email "security@automation.bot"
           git config --local user.name "Threat Crawler Bot"
-          git pull origin main --rebase
+          
+          # 1. Add the new data first so Git knows it's safe
           git add data.json
+          
+          # 2. Commit the changes locally
           git commit -m "Update threat data" || echo "No changes to commit"
+          
+          # 3. NOW we pull and rebase to sync with the main branch
+          git pull origin main --rebase
+          
+          # 4. Push it live
           git push origin main
