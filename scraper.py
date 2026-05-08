@@ -1,51 +1,56 @@
 import json
 import datetime
-from ddgs import DDGS
+import requests
+import os
+
+# Pulls the key securely from GitHub Secrets
+TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 
 def fetch_search_results():
-    # Using a natural search query to prevent DuckDuckGo bot detection
-    query = 'BNI Direct' 
+    if not TAVILY_API_KEY:
+        print("Error: TAVILY_API_KEY is missing!")
+        return []
+
+    url = "https://api.tavily.com/search"
+    payload = {
+        "api_key": TAVILY_API_KEY,
+        "query": "BNI Direct",
+        "search_depth": "advanced", # Pulls higher quality, deeper web results
+        "include_answer": False,
+        "include_images": False,
+        "include_raw_content": False,
+        "max_results": 50,
+        # Tavily explicitly strips these out before returning data to us
+        "exclude_domains": ["bni.co.id", "www.bni.co.id"] 
+    }
+    
     all_suspicious_urls = []
     
     try:
-        with DDGS() as ddgs:
-            # Fetching 70 results to ensure we have enough after filtering official sites
-            results = ddgs.text(
-                query, 
-                region='id-id', 
-                max_results=70 
-            )
-            
-            if results:
-                for r in results:
-                    url = r.get('href', '')
-                    
-                    # Python-level filter: Exclude official domains to isolate the threats
-                    if 'bni.co.id' not in url.lower() and url != '':
-                        all_suspicious_urls.append(url)
-            else:
-                print("DuckDuckGo returned an empty response. Possible rate limit.")
-                
+        response = requests.post(url, json=payload)
+        if response.status_code == 200:
+            data = response.json()
+            for result in data.get('results', []):
+                all_suspicious_urls.append(result['url'])
+        else:
+            print(f"Tavily API Error: {response.status_code} - {response.text}")
     except Exception as e:
-        print(f"Error during search: {e}")
+        print(f"Request failed: {e}")
 
-    # Enforce a strict maximum of 50 URLs for the final dashboard
-    return all_suspicious_urls[:50]
+    return all_suspicious_urls
 
 def analyze_urls(scraped_urls):
     results = []
     target_brand = "bni"
     
     for url in scraped_urls:
-        # Extract just the root domain from the URL for analysis
         domain = url.split("//")[-1].split("/")[0]
         
-        # Threat logic scoring
         status = "Safe"
         if target_brand in domain.lower():
-            status = "Critical" # E.g., bni-direct-login.com
+            status = "Critical" 
         elif any(kw in domain.lower() for kw in ["login", "secure", "portal", "auth"]):
-            status = "Suspicious" # E.g., secure-banking-portal.net
+            status = "Suspicious" 
             
         results.append({
             "url": url,
@@ -57,13 +62,12 @@ def analyze_urls(scraped_urls):
     return results
 
 if __name__ == "__main__":
-    print("Starting Threat Crawler (DuckDuckGo Engine)...")
+    print("Starting Threat Crawler (Tavily Engine)...")
     raw_urls = fetch_search_results()
     
-    print(f"Found {len(raw_urls)} external links after filtering. Analyzing threats...")
+    print(f"Found {len(raw_urls)} external links. Analyzing threats...")
     threat_data = analyze_urls(raw_urls)
     
-    # Save output to JSON for the dashboard
     with open("data.json", "w") as f:
         json.dump(threat_data, f, indent=4)
         
