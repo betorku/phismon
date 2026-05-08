@@ -2,7 +2,7 @@ name: Hourly Threat Crawler
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Set back to a stable 1-hour interval
+    - cron: '0 * * * *' # Set back to a stable 1-hour interval
   workflow_dispatch: 
 
 jobs:
