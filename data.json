@@ -1,1 +1,128 @@
-[]
+[
+    {
+        "url": "https://www.bni.com/",
+        "domain": "www.bni.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731886"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile",
+        "domain": "play.google.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731898"
+    },
+    {
+        "url": "https://www.idnfinancials.com/news/51070/strengthening-corporate-services-bbni-readies-bni-direct",
+        "domain": "www.idnfinancials.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731901"
+    },
+    {
+        "url": "https://bnitampa.com/en-US/chapterdetail?chapterId=bv2YQzKCogFlQ7D90M/GcA==&name=BNI+BNI+Direct+to+Success",
+        "domain": "bnitampa.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731903"
+    },
+    {
+        "url": "https://x.com/BNI/status/1954815677132370138",
+        "domain": "x.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731906"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/",
+        "domain": "www.bniconnectglobal.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731908"
+    },
+    {
+        "url": "https://apps.apple.com/id/app/bnidirect-mobile/id1471093490",
+        "domain": "apps.apple.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731911"
+    },
+    {
+        "url": "https://www.bnidirect.com/bni/en/motor-insurance/",
+        "domain": "www.bnidirect.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731913"
+    },
+    {
+        "url": "https://apps.apple.com/us/app/mobile-token-bni/id1673638763",
+        "domain": "apps.apple.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731915"
+    },
+    {
+        "url": "https://bnitampa.com/fl-tampa-bay-bni-direct-to-success/en-US/index",
+        "domain": "bnitampa.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731917"
+    },
+    {
+        "url": "https://www.ayoconnect.com/blog/apa-itu-bni-direct-keuntungan-dan-cara-daftar-bni-direct",
+        "domain": "www.ayoconnect.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731920"
+    },
+    {
+        "url": "https://finance.detik.com/moneter/d-6011695/apa-itu-bni-direct-berikut-pengertian-manfaat-fitur-hingga-cara-daftarnya",
+        "domain": "finance.detik.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731923"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/",
+        "domain": "www.bniconnectglobal.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731924"
+    },
+    {
+        "url": "https://www.selasar.com/bni-direct/",
+        "domain": "www.selasar.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731927"
+    },
+    {
+        "url": "https://seeklogo.com/vector-logo/674473/bni-direct",
+        "domain": "seeklogo.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731929"
+    },
+    {
+        "url": "https://www.cekpremi.com/blog/bni-direct/",
+        "domain": "www.cekpremi.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731932"
+    },
+    {
+        "url": "https://investbro.id/cara-menggunakan-token-bni-direct/",
+        "domain": "investbro.id",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731934"
+    },
+    {
+        "url": "https://www.facebook.com/BNI/posts/take-control-of-every-step-in-your-business-finances-with-bnidirect-bnis-digital/807641068256673/",
+        "domain": "www.facebook.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731937"
+    },
+    {
+        "url": "https://www.bnidirect.com/bni/en/",
+        "domain": "www.bnidirect.com",
+        "status": "Critical",
+        "timestamp": "2026-05-08T06:36:25.731939"
+    },
+    {
+        "url": "https://support.google.com/youtube/thread/431616789/tutorial-cara-aktivasi-mobile-token-mobile-token?hl=en",
+        "domain": "support.google.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731942"
+    },
+    {
+        "url": "https://www.google.com/",
+        "domain": "www.google.com",
+        "status": "Safe",
+        "timestamp": "2026-05-08T06:36:25.731944"
+    }
+]
