@@ -2,7 +2,7 @@ name: Hourly Threat Crawler
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs at minute 0 of every hour
+    - cron: '*/5 * * * *' # Runs at minute 0 of every hour
   workflow_dispatch: # Allows manual click to run
 
 jobs:
