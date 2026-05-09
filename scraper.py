@@ -53,33 +53,30 @@ EXCLUDED_DOMAINS = [
 ]
 
 SEARCH_QUERIES = [
-    "bni direct login",
-    "bni cash management",
-    "bn1 login",
-    "bni secure portal",
-    "bni verification",
-    "bni account update",
+    "bni direct Indonesia",
+    "bni cash management Indonesia",
+    "bn1 login Indonesia",
+    "bni secure portal Indonesia",
+    "bni direct reset Indonesia",
     "bni-direct login",
-    "bnidirect secure",
-    "bni internet banking login",
+    "bnidirect Indonesia",
 ]
 
 SUSPICIOUS_KEYWORDS = [
     "login",
     "signin",
     "verify",
-    "verification",
-    "secure",
+    "verifikasi",
     "update",
     "portal",
     "auth",
     "cash",
     "token",
-    "account",
+    "reset",
     "password",
     "banking",
     "otp",
-    "wallet",
+    "blokir",
 ]
 
 SUSPICIOUS_TLDS = [
@@ -103,7 +100,7 @@ PHISHING_PATTERNS = [
     "bnid",
     "bnicash",
     "bnidirect",
-    "bnisecure",
+    "bni-",
 ]
 
 # =========================================================
