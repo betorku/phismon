@@ -1,602 +1,602 @@
 [
     {
-        "url": "https://bni-newyork.com/en-US/memberdetails?encryptedUserId=oYqh3XkjYoTyDjXdGqCNsQ%3D%3D&regionId=1652&t=&name=Jane%20Parmel",
-        "domain": "bni-newyork.com",
-        "status": "Critical",
-        "timestamp": "2026-05-09T10:56:59.668347"
-    },
-    {
         "url": "https://merchant.qris-bni.com/",
         "domain": "merchant.qris-bni.com",
         "status": "Critical",
-        "timestamp": "2026-05-09T10:56:59.668508"
-    },
-    {
-        "url": "https://bniatl.com/ga-northwest-ga-nw-bni-success-mastery/en-US/memberdetails?encryptedMemberId=gesZxJXYypE5yzz3NRgY2g%3D%3D&cmsv3=true&name=Richard+Stuckey",
-        "domain": "bniatl.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668154"
-    },
-    {
-        "url": "https://bnieuropa.pt/en/privacy-and-cookies-policy/",
-        "domain": "bnieuropa.pt",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668178"
-    },
-    {
-        "url": "https://growwithbni.bni.com/welcome/",
-        "domain": "growwithbni.bni.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668189"
-    },
-    {
-        "url": "https://bnicolorado.com/moneymakers/en-US/memberdetails?encryptedMemberId=vFpn2AZSbkjlCIRNJzErGQ%3D%3D&name=Noah+Katz",
-        "domain": "bnicolorado.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668202"
-    },
-    {
-        "url": "https://bnica.com/en-US/memberdetails?encryptedMemberId=tNOcAxpLhvd5oP6aFpUv5Q%3D%3D&name=Matthew+Zertuche",
-        "domain": "bnica.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668209"
-    },
-    {
-        "url": "https://jakartaglobe.id/special-updates/bnis-corporate-business-transaction-value-rises-233-pct",
-        "domain": "jakartaglobe.id",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668222"
+        "timestamp": "2026-05-09T11:53:35.235987"
     },
     {
         "url": "https://bninovasouth.com/va-nova-south-bni-cameron-breakfast--n107/en-US/memberdetails?encryptedMemberId=XuxPfdrsLf3pkl0ydNoqEw%3D%3D&name=Ru+Toyama",
         "domain": "bninovasouth.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668289"
+        "timestamp": "2026-05-09T11:53:35.235888"
     },
     {
-        "url": "https://proceedings.uin-alauddin.ac.id/index.php/icosis/icosis2023/paper/view/1123/729",
-        "domain": "proceedings.uin-alauddin.ac.id",
+        "url": "https://jakartaglobe.id/special-updates/bnis-corporate-business-transaction-value-rises-233-pct",
+        "domain": "jakartaglobe.id",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668294"
+        "timestamp": "2026-05-09T11:53:35.235902"
     },
     {
-        "url": "https://bniarizona.com/az-west-bni-inspiration-network/en-US/memberdetails?encryptedMemberId=hW47JDU4UnretXTNUsX3UQ%3D%3D&cmsv3=true&name=Amy+Swaney",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0305048322001876",
+        "domain": "www.sciencedirect.com",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.235922"
+    },
+    {
+        "url": "https://jakartaglobe.id/special-updates/bnis-digital-solutions-spur-casa-growth",
+        "domain": "jakartaglobe.id",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.235936"
+    },
+    {
+        "url": "https://bnimass.com/ma-boston-(essex-norfolk-suffolk)-bni-broadway/en-US/memberdetails?encryptedMemberId=43UAN6GvOyFONFk2Br5OGQ%3D%3D&cmsv3=true&name=Samuel+Bohmiller",
+        "domain": "bnimass.com",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.236011"
+    },
+    {
+        "url": "https://bnieuropa.pt/en/privacy-and-cookies-policy/",
+        "domain": "bnieuropa.pt",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.236014"
+    },
+    {
+        "url": "https://bniarizona.com/az-west-bni-alianzas/es/memberdetails?encryptedMemberId=LI%2F06Utp7WjVlay79c%2FMOw%3D%3D&name=Roberto+Rivera",
         "domain": "bniarizona.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668321"
+        "timestamp": "2026-05-09T11:53:35.236045"
     },
     {
-        "url": "https://www.bni.com/page/14/?event_id=495900&uuid=638ec27a-bb53-11ed-bebb-76ca2de364da",
-        "domain": "www.bni.com",
+        "url": "https://bnidfw.com/tx-austin-bni-star-of-texas-exchange-partners-(step)/en-US/memberdetails?encryptedMemberId=kFw4GYulYFY71tnxfrUDDQ%3D%3D&name=Tye+Williams",
+        "domain": "bnidfw.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668331"
+        "timestamp": "2026-05-09T11:53:35.236058"
     },
     {
-        "url": "https://www.hops.id/unik/pr-2942111396/bni-direct-simak-fitur-canggihnya-cara-login-dan-kemudahannya?page=5",
-        "domain": "www.hops.id",
+        "url": "https://bnimaine.com/me-maine-dirigo-bni/en-US/memberdetails?encryptedMemberId=MDKdliJM4mFZFOqrJ7R4%2Bg%3D%3D&name=Deja+Lett",
+        "domain": "bnimaine.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668359"
-    },
-    {
-        "url": "https://northern.bnialabama.com/al-northern-rocket-city-referrals/en-US/memberdetails?encryptedMemberId=nmqsXHtTaFofw0H1kuk5RQ%3D%3D&name=Andrew+R.+Crawford",
-        "domain": "northern.bnialabama.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668389"
-    },
-    {
-        "url": "https://mniznik.pl/bnidirect-login/",
-        "domain": "mniznik.pl",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668395"
-    },
-    {
-        "url": "https://bnineo.com/en-US/member-resources",
-        "domain": "bnineo.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668406"
+        "timestamp": "2026-05-09T11:53:35.236072"
     },
     {
         "url": "https://www.franchisedirect.com/businessopportunities/bni-global-franchise-13765/ufoc/",
         "domain": "www.franchisedirect.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668419"
+        "timestamp": "2026-05-09T11:53:35.236080"
     },
     {
-        "url": "https://apps.bnidirect.com/",
-        "domain": "apps.bnidirect.com",
+        "url": "https://bnidvr.com/pa-reading-whitehall-i/en-US/memberdetails?encryptedMemberId=%2F0uZxKQibQnYFHgeU3O1sA%3D%3D&name=Craig+Liles",
+        "domain": "bnidvr.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668430"
+        "timestamp": "2026-05-09T11:53:35.236109"
     },
     {
-        "url": "https://bniofmidlands.com/en-US/index",
-        "domain": "bniofmidlands.com",
+        "url": "https://support.bniconnect.com/hc/en-us/articles/115000092631-BNI-Connect-Mobile-Terms-of-Use-TOU",
+        "domain": "support.bniconnect.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668434"
-    },
-    {
-        "url": "https://www.bni.com/",
-        "domain": "www.bni.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668437"
-    },
-    {
-        "url": "https://www.delta-esourcing.com/",
-        "domain": "www.delta-esourcing.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668441"
+        "timestamp": "2026-05-09T11:53:35.236120"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/",
         "domain": "www.bniconnectglobal.com",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668444"
-    },
-    {
-        "url": "https://www.ir-bri.com/misc/AR/AR-2023-EN.pdf",
-        "domain": "www.ir-bri.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668451"
-    },
-    {
-        "url": "https://mybni.com/",
-        "domain": "mybni.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668462"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/v2/dashboard",
-        "domain": "www.bniconnectglobal.com",
-        "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668472"
+        "timestamp": "2026-05-09T11:53:35.236247"
     },
     {
         "url": "https://circleshare.fr/bnidirect-login/",
         "domain": "circleshare.fr",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668479"
+        "timestamp": "2026-05-09T11:53:35.236262"
     },
     {
-        "url": "https://bnimaine.com/me-maine-casco-bay-money-movers-bni/en-US/memberdetails?encryptedMemberId=wUJDKYNO3TUq35YGJxqvug%3D%3D&cmsv3=true&name=Keith+Reilly",
-        "domain": "bnimaine.com",
+        "url": "https://jakartaglobe.id/special-updates/bnidirect-records-rp-5017-trillion-in-transaction",
+        "domain": "jakartaglobe.id",
         "status": "Suspicious",
-        "timestamp": "2026-05-09T10:56:59.668487"
+        "timestamp": "2026-05-09T11:53:35.236295"
     },
     {
-        "url": "https://apps.apple.com/qa/app/mytelkomsel/id651412430",
-        "domain": "apps.apple.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668112"
+        "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/overview/secondary-payer-recovery-portal",
+        "domain": "www.cms.gov",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.236307"
     },
     {
-        "url": "https://www.txnb.uscourts.gov/sites/txnb/files/basic/Unclaimed_Funds_11_01_13.pdf",
-        "domain": "www.txnb.uscourts.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668126"
-    },
-    {
-        "url": "https://docs.adyen.com/development-resources/test-cards-and-credentials/alternative-payment-method-credentials/",
-        "domain": "docs.adyen.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668132"
-    },
-    {
-        "url": "https://www.xendit.co/en/blog/what-is-a-virtual-account-and-how-does-it-work/",
-        "domain": "www.xendit.co",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668136"
-    },
-    {
-        "url": "https://app.bions.id/",
-        "domain": "app.bions.id",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668139"
-    },
-    {
-        "url": "https://www.atm.bitcoin.com/bitcoin-news/how-to-approve-bni-direct-transactions-a-simple-guide-1767648075",
-        "domain": "www.atm.bitcoin.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668144"
-    },
-    {
-        "url": "https://www.enr.com/articles/49714-threats-of-day-zero-water-scarcity-multiply",
-        "domain": "www.enr.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668148"
-    },
-    {
-        "url": "https://apps.apple.com/us/app/bions/id6736508566",
-        "domain": "apps.apple.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668158"
-    },
-    {
-        "url": "https://documents1.worldbank.org/curated/en/099520211242139604/txt/Final0Fiduciar0s0Program000P172707.txt",
-        "domain": "documents1.worldbank.org",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668162"
-    },
-    {
-        "url": "https://www.greenclimate.fund/ae/banque-nationale-dinvestissement",
-        "domain": "www.greenclimate.fund",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668166"
-    },
-    {
-        "url": "https://www.cnbcindonesia.com/market/20210906161838-17-274048/inovasi-digital-3-produk-bni-jadi-game-changer",
-        "domain": "www.cnbcindonesia.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668170"
-    },
-    {
-        "url": "https://flin.co.id/blog/cara-cek-cetak-rekening-koran-bni/",
-        "domain": "flin.co.id",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668174"
-    },
-    {
-        "url": "https://pubchem.ncbi.nlm.nih.gov/",
-        "domain": "pubchem.ncbi.nlm.nih.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668181"
-    },
-    {
-        "url": "https://www.tableau.com/solutions/customer/Bank-Negara-Indonesia-consolidates-data-millions-of-customers",
-        "domain": "www.tableau.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668186"
-    },
-    {
-        "url": "https://www.quora.com/Is-BNI-a-scam",
-        "domain": "www.quora.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668193"
-    },
-    {
-        "url": "https://www.boston.gov/sites/default/files/file/2021/05/Heritage%20BCB%20Presentation%20May%202021%20-%20Final%20Submittal.pdf",
-        "domain": "www.boston.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668198"
-    },
-    {
-        "url": "https://www.brankas.com/disburse-terms-and-conditions/introduction-to-brankas-disburse/",
-        "domain": "www.brankas.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668206"
-    },
-    {
-        "url": "https://www.fema.gov/sites/default/files/documents/fema_public-assistance-program-and-policy-guide_v5_june2024.pdf",
-        "domain": "www.fema.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668214"
-    },
-    {
-        "url": "https://www.finpay.id/",
-        "domain": "www.finpay.id",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668217"
-    },
-    {
-        "url": "https://mwm.ai/apps/bni/6739867437",
-        "domain": "mwm.ai",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668226"
-    },
-    {
-        "url": "https://medium.com/@novinda.amalia/usability-test-report-bni-mobile-banking-cc2c0a88d845",
-        "domain": "medium.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668230"
-    },
-    {
-        "url": "https://www.jpmorgan.com/payments/payments-unbound/volume-3/cross-border-payment-modernization",
-        "domain": "www.jpmorgan.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668234"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.zaisan.android&hl=en_US",
-        "domain": "play.google.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668237"
-    },
-    {
-        "url": "https://covid.fabriciano.mg.gov.br/official-origin/bni-direct-payroll-a-simple-explanation-1767647198",
-        "domain": "covid.fabriciano.mg.gov.br",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668242"
-    },
-    {
-        "url": "https://documents1.worldbank.org/curated/en/906721468765919977/pdf/40680.pdf",
-        "domain": "documents1.worldbank.org",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668246"
-    },
-    {
-        "url": "https://credfino.com/blog/marketing-for-accountants/bni-group-for-accountants-is-it-worth-the-investment/",
-        "domain": "credfino.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668250"
-    },
-    {
-        "url": "https://thecorporatetreasurer.com/article/corporatetreasurer-awards-2024-winners-spotlight/499713",
-        "domain": "thecorporatetreasurer.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668254"
-    },
-    {
-        "url": "https://www.quora.com/Is-BNI-a-pyramid-scheme",
-        "domain": "www.quora.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668258"
-    },
-    {
-        "url": "https://apps.apple.com/tj/app/mytelkomsel/id651412430",
-        "domain": "apps.apple.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668261"
-    },
-    {
-        "url": "https://www.truist.com/",
-        "domain": "www.truist.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668265"
-    },
-    {
-        "url": "https://www.vnshealthplans.org/wp-content/uploads/2024/05/VNS-Health_Provider-Manual_02.10.26revised_-FINAL-03.19.26final-1.pdf",
-        "domain": "www.vnshealthplans.org",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668269"
-    },
-    {
-        "url": "https://www.cisco.com/site/us/en/about/corporate-development/acquisitions/acquisitions-list-years/index.html",
-        "domain": "www.cisco.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668274"
-    },
-    {
-        "url": "https://www.scribd.com/document/906120207/1004-Article-Text-4748-1-10-20240417",
-        "domain": "www.scribd.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668278"
-    },
-    {
-        "url": "https://forum.elementarypos.com/",
-        "domain": "forum.elementarypos.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668281"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=id",
-        "domain": "play.google.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668285"
-    },
-    {
-        "url": "https://www.thejakartapost.com/adv/2020/05/26/entering-new-normal-bni-prepares-strategies.html",
-        "domain": "www.thejakartapost.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668298"
-    },
-    {
-        "url": "https://ramedivia.com/bni-internet-banking/",
-        "domain": "ramedivia.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668301"
-    },
-    {
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7442427/",
-        "domain": "pmc.ncbi.nlm.nih.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668305"
-    },
-    {
-        "url": "https://kumparan.com/kumparanbisnis/ekosistem-digital-bni-makin-bisa-diandalkan-1vjG3IE2CpX",
-        "domain": "kumparan.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668309"
-    },
-    {
-        "url": "https://wise.com/us/routing-number/026007472",
-        "domain": "wise.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668312"
-    },
-    {
-        "url": "https://www.fema.gov/sites/default/files/documents/fema_hma-program-policy-guide_032023.pdf",
-        "domain": "www.fema.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668317"
+        "url": "https://akademik.untag-sby.ac.id/backend/uploads/pdf/9479446.pdf",
+        "domain": "akademik.untag-sby.ac.id",
+        "status": "Suspicious",
+        "timestamp": "2026-05-09T11:53:35.236322"
     },
     {
         "url": "https://www.nuvei.com/apm/bni-bank",
         "domain": "www.nuvei.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668324"
+        "timestamp": "2026-05-09T11:53:35.235874"
     },
     {
-        "url": "https://www.nuvei.com/apm/bank-negara-indonesia",
-        "domain": "www.nuvei.com",
+        "url": "https://www.tableau.com/solutions/customer/Bank-Negara-Indonesia-consolidates-data-millions-of-customers",
+        "domain": "www.tableau.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668328"
+        "timestamp": "2026-05-09T11:53:35.235894"
     },
     {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=en_US",
-        "domain": "play.google.com",
+        "url": "https://www.samsung.com/us/support/owners/app/samsung-pay/",
+        "domain": "www.samsung.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668335"
-    },
-    {
-        "url": "https://norbr.com/payment-methods/bank-negara-indonesia-bni/",
-        "domain": "norbr.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668339"
-    },
-    {
-        "url": "https://mwm.ai/apps/bnionline/1444992529",
-        "domain": "mwm.ai",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668342"
-    },
-    {
-        "url": "https://bali.live/p/a-foreigners-guide-to-opening-a-bank-account-at-bni",
-        "domain": "bali.live",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668351"
-    },
-    {
-        "url": "https://oag.maryland.gov/resources-info/Documents/pdfs/Opinions/1970/Volume55_1970.pdf",
-        "domain": "oag.maryland.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668355"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.bions.bnis.android&hl=en_US",
-        "domain": "play.google.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668362"
-    },
-    {
-        "url": "https://www.xendit.co/en/insurance-solutions/",
-        "domain": "www.xendit.co",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668366"
-    },
-    {
-        "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/workers-comp-set-aside-arrangements/self-administration",
-        "domain": "www.cms.gov",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668376"
+        "timestamp": "2026-05-09T11:53:35.235898"
     },
     {
         "url": "https://money.kompas.com/read/2024/10/12/224802426/cara-mudah-cek-mutasi-rekening-bni-via-bni-direct?page=all",
         "domain": "money.kompas.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668380"
+        "timestamp": "2026-05-09T11:53:35.235907"
     },
     {
-        "url": "https://www.greenclimate.fund/about/partners/ae",
-        "domain": "www.greenclimate.fund",
+        "url": "https://credfino.com/blog/marketing-for-accountants/bni-group-for-accountants-is-it-worth-the-investment/",
+        "domain": "credfino.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668384"
+        "timestamp": "2026-05-09T11:53:35.235911"
     },
     {
-        "url": "https://mutasibank.co.id/mutasi-bni-otomatis",
-        "domain": "mutasibank.co.id",
+        "url": "https://mwm.ai/apps/bni/6739867437",
+        "domain": "mwm.ai",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668392"
+        "timestamp": "2026-05-09T11:53:35.235914"
+    },
+    {
+        "url": "https://www.bankofoklahoma.com/",
+        "domain": "www.bankofoklahoma.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235918"
+    },
+    {
+        "url": "https://www.finpay.id/",
+        "domain": "www.finpay.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235925"
+    },
+    {
+        "url": "https://www.varomoney.com/",
+        "domain": "www.varomoney.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235929"
+    },
+    {
+        "url": "https://www.jpmorgan.com/payments/payments-unbound/volume-3/cross-border-payment-modernization",
+        "domain": "www.jpmorgan.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235932"
+    },
+    {
+        "url": "https://apps.apple.com/lb/app/mytelkomsel/id651412430",
+        "domain": "apps.apple.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235939"
+    },
+    {
+        "url": "https://www.slideshare.net/slideshow/06-program-bok-puskesmas-dan-dashboard_bni-pptx/274797648",
+        "domain": "www.slideshare.net",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235943"
+    },
+    {
+        "url": "https://www.atm.bitcoin.com/bitcoin-news/how-to-approve-bni-direct-transactions-a-simple-guide-1767648075",
+        "domain": "www.atm.bitcoin.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235947"
+    },
+    {
+        "url": "https://www.nuvei.com/apm/bank-negara-indonesia",
+        "domain": "www.nuvei.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235950"
+    },
+    {
+        "url": "https://www.buffaloairport.com/",
+        "domain": "www.buffaloairport.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235954"
+    },
+    {
+        "url": "https://usa.bnpparibas/en/",
+        "domain": "usa.bnpparibas",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235957"
+    },
+    {
+        "url": "https://www.brankas.com/disburse-terms-and-conditions/introduction-to-brankas-disburse/",
+        "domain": "www.brankas.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235961"
+    },
+    {
+        "url": "https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c30.pdf",
+        "domain": "www.cms.gov",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235965"
+    },
+    {
+        "url": "https://pasardana.id/news/2025/6/26/dorong-digitalisasi-bisnis-di-indonesia-timur-bni-kembali-gelar-bnidirect-capabilities-event-di-makassar",
+        "domain": "pasardana.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235970"
+    },
+    {
+        "url": "https://www.sunriselab.com/clinicians/client-communication/",
+        "domain": "www.sunriselab.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235973"
+    },
+    {
+        "url": "https://globalcoverage.aciworldwide.com/",
+        "domain": "globalcoverage.aciworldwide.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235977"
+    },
+    {
+        "url": "https://mwm.ai/apps/bnionline/1444992529",
+        "domain": "mwm.ai",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235980"
+    },
+    {
+        "url": "https://medium.com/@novinda.amalia/usability-test-report-bni-mobile-banking-cc2c0a88d845",
+        "domain": "medium.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.235983"
     },
     {
         "url": "https://www.qoala.app/id/blog/perencanaan-keuangan/apa-itu-bni-direct/",
         "domain": "www.qoala.app",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668399"
+        "timestamp": "2026-05-09T11:53:35.235990"
     },
     {
-        "url": "https://www.reed.edu/seeds/initiatives/food-security/index.html",
-        "domain": "www.reed.edu",
+        "url": "https://factsmgt.com/",
+        "domain": "factsmgt.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668403"
+        "timestamp": "2026-05-09T11:53:35.235993"
     },
     {
-        "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/earn-miles/earn-on-the-ground/financial-services-partners/",
-        "domain": "www.singaporeair.com",
+        "url": "https://www.firstcommunitybank.com/",
+        "domain": "www.firstcommunitybank.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668411"
+        "timestamp": "2026-05-09T11:53:35.235996"
     },
     {
-        "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-18-812.html",
-        "domain": "grants.nih.gov",
+        "url": "https://www.antom.com/payment-methods",
+        "domain": "www.antom.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668415"
+        "timestamp": "2026-05-09T11:53:35.236000"
+    },
+    {
+        "url": "https://wise.com/us/routing-number/026007472",
+        "domain": "wise.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236003"
+    },
+    {
+        "url": "https://barternetworkinc.com/join-barter-network/",
+        "domain": "barternetworkinc.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236006"
+    },
+    {
+        "url": "https://www.quora.com/Is-BNI-a-pyramid-scheme",
+        "domain": "www.quora.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236018"
     },
     {
         "url": "https://jurnalitpln.id/sistem-bni-direct-2026-panduan-lengkap-kelola-transaksi-bisnis-tanpa-celah/",
         "domain": "jurnalitpln.id",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668423"
+        "timestamp": "2026-05-09T11:53:35.236022"
     },
     {
-        "url": "https://apps.apple.com/id/app/paper-invoice-payments/id6463997183",
-        "domain": "apps.apple.com",
+        "url": "https://bali.live/p/a-foreigners-guide-to-opening-a-bank-account-at-bni",
+        "domain": "bali.live",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668427"
-    },
-    {
-        "url": "https://getlatka.com/companies/bank-negara-indonesia",
-        "domain": "getlatka.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668448"
-    },
-    {
-        "url": "https://www.bimopay.com/en/internet-banking.html",
-        "domain": "www.bimopay.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668455"
-    },
-    {
-        "url": "https://thedigitalbanker.com/banking-simplified-how-bni-is-delivering-seamless-banking-experiences-through-apis/",
-        "domain": "thedigitalbanker.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668459"
-    },
-    {
-        "url": "https://www.brankas.com/_remove-yokke/",
-        "domain": "www.brankas.com",
-        "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668466"
+        "timestamp": "2026-05-09T11:53:35.236026"
     },
     {
         "url": "https://stopforumspam.com/country/id/10",
         "domain": "stopforumspam.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668469"
+        "timestamp": "2026-05-09T11:53:35.236029"
     },
     {
-        "url": "https://www.investing.com/equities/bank-bni-tbk",
-        "domain": "www.investing.com",
+        "url": "https://www.cisco.com/site/us/en/about/corporate-development/acquisitions/acquisitions-list-years/index.html",
+        "domain": "www.cisco.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668476"
+        "timestamp": "2026-05-09T11:53:35.236033"
     },
     {
-        "url": "https://apps.apple.com/uz/app/mytelkomsel/id651412430",
-        "domain": "apps.apple.com",
+        "url": "https://www.coface.com/news-economy-and-insights/business-risk-dashboard/country-risk-files/portugal",
+        "domain": "www.coface.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668483"
+        "timestamp": "2026-05-09T11:53:35.236037"
     },
     {
-        "url": "https://www.dbs.com.sg/treasures/aics/templatedata/article/equity/data/en/DBSV/012014/BBNI_IJ.xml",
-        "domain": "www.dbs.com.sg",
+        "url": "https://docs.durianpay.id/docs/difference-between-aggregator-and-direct-model",
+        "domain": "docs.durianpay.id",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668492"
+        "timestamp": "2026-05-09T11:53:35.236041"
+    },
+    {
+        "url": "https://www.indopremier.com/ipotnews/newsDetail.php?jdl=BNI_Pacu_Transaksi_BNIDirect_Lewat_Inovasi_Fitur___Layanan_Baru&news_id=405299&group_news=RESEARCHNEWS&news_date=&taging_subtype=INDUSTRILAINNYA&name=&search=y_general&q=usaha%20kecil,%20&halaman=1",
+        "domain": "www.indopremier.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236050"
+    },
+    {
+        "url": "https://investor.id/finance/392883/bnidirect-catat-peningkatan-nilai-transaksi-233-untuk-nasabah-korporasi-dan-bisnis",
+        "domain": "investor.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236054"
+    },
+    {
+        "url": "https://covid.fabriciano.mg.gov.br/official-origin/bni-direct-payroll-a-simple-explanation-1767647198",
+        "domain": "covid.fabriciano.mg.gov.br",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236062"
     },
     {
         "url": "https://www.greenclimate.fund/ae/ptsmi",
         "domain": "www.greenclimate.fund",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668495"
+        "timestamp": "2026-05-09T11:53:35.236065"
     },
     {
-        "url": "https://www.cms.gov/",
-        "domain": "www.cms.gov",
+        "url": "https://getlatka.com/companies/bank-negara-indonesia",
+        "domain": "getlatka.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668498"
+        "timestamp": "2026-05-09T11:53:35.236069"
+    },
+    {
+        "url": "https://www.xendit.co/en/payment-channel/page/6/",
+        "domain": "www.xendit.co",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236076"
+    },
+    {
+        "url": "https://www.quora.com/Is-BNI-a-scam",
+        "domain": "www.quora.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236083"
+    },
+    {
+        "url": "https://portersfiveforce.com/blogs/marketing-strategy/bni",
+        "domain": "portersfiveforce.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236087"
     },
     {
         "url": "https://help.payhip.com/article/365-connect-your-midtrans-account",
         "domain": "help.payhip.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668502"
+        "timestamp": "2026-05-09T11:53:35.236090"
     },
     {
-        "url": "https://www.amboybank.com/",
-        "domain": "www.amboybank.com",
+        "url": "https://www.swift.com/news-events/news/transforming-consumer-payments-banks-roll-out-new-framework-retail-transactions",
+        "domain": "www.swift.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668511"
+        "timestamp": "2026-05-09T11:53:35.236098"
+    },
+    {
+        "url": "https://www.rd.usda.gov/programs-services/business-programs/business-and-industry-guaranteed-loan",
+        "domain": "www.rd.usda.gov",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236102"
+    },
+    {
+        "url": "https://www.bnsf.com/about-bnsf/contact-us/",
+        "domain": "www.bnsf.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236105"
     },
     {
         "url": "https://play.google.com/store/apps/details?id=com.mozzarellalabs.landlordstudio",
         "domain": "play.google.com",
         "status": "Safe",
-        "timestamp": "2026-05-09T10:56:59.668515"
+        "timestamp": "2026-05-09T11:53:35.236113"
+    },
+    {
+        "url": "https://mutasibank.co.id/mutasi-bni-otomatis",
+        "domain": "mutasibank.co.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236116"
+    },
+    {
+        "url": "https://www.westernunion.com/us/en/bank-account-transfer-details.html",
+        "domain": "www.westernunion.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236123"
+    },
+    {
+        "url": "https://apps.apple.com/bb/app/mytelkomsel/id651412430",
+        "domain": "apps.apple.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236127"
+    },
+    {
+        "url": "https://www.scribd.com/document/906120207/1004-Article-Text-4748-1-10-20240417",
+        "domain": "www.scribd.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236130"
+    },
+    {
+        "url": "https://flin.co.id/blog/cara-cek-cetak-rekening-koran-bni/",
+        "domain": "flin.co.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236134"
+    },
+    {
+        "url": "https://www.truist.com/",
+        "domain": "www.truist.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236137"
+    },
+    {
+        "url": "https://my.idc.com/getdoc.jsp?containerId=prAP53690625",
+        "domain": "my.idc.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236140"
+    },
+    {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12959553/",
+        "domain": "pmc.ncbi.nlm.nih.gov",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236144"
+    },
+    {
+        "url": "https://www.islamicfinancenews.com/solidarity-bahrain-bni-merger-approved.html",
+        "domain": "www.islamicfinancenews.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236148"
+    },
+    {
+        "url": "https://id.scribd.com/document/1016509403/Product-Knowledge-BNI-Direct-Bisnis",
+        "domain": "id.scribd.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236151"
+    },
+    {
+        "url": "https://www.fsbwa.com/",
+        "domain": "www.fsbwa.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236154"
+    },
+    {
+        "url": "https://www.jpmorgan.com/content/dam/jpm/treasury-services/documents/Payments-Unbound-Volume-3.pdf",
+        "domain": "www.jpmorgan.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236158"
+    },
+    {
+        "url": "https://southstarbank.com/southstar-bank-insider/5/",
+        "domain": "southstarbank.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236168"
+    },
+    {
+        "url": "https://www.greenclimate.fund/about/partners/ae",
+        "domain": "www.greenclimate.fund",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236176"
+    },
+    {
+        "url": "https://apps.apple.com/uz/app/mytelkomsel/id651412430",
+        "domain": "apps.apple.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236182"
+    },
+    {
+        "url": "https://keuangan.kontan.co.id/news/bni-catat-transaksi-segmen-wholesale-mencapai-rp-2837-triliun-lewat-bnidirect",
+        "domain": "keuangan.kontan.co.id",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236191"
+    },
+    {
+        "url": "https://thecorporatetreasurer.com/article/corporatetreasurer-awards-2024-winners-spotlight/499713",
+        "domain": "thecorporatetreasurer.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236199"
+    },
+    {
+        "url": "https://journalkeberlanjutan.com/index.php/jtep/article/download/1004/851",
+        "domain": "journalkeberlanjutan.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236205"
+    },
+    {
+        "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/workers-comp-set-aside-arrangements/self-administration",
+        "domain": "www.cms.gov",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236211"
+    },
+    {
+        "url": "https://www.amboybank.com/",
+        "domain": "www.amboybank.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236216"
+    },
+    {
+        "url": "https://www.greenclimate.fund/ae/caf",
+        "domain": "www.greenclimate.fund",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236221"
+    },
+    {
+        "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/earn-miles/earn-on-the-ground/financial-services-partners/",
+        "domain": "www.singaporeair.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236228"
+    },
+    {
+        "url": "https://help.xendit.co/hc/en-us/articles/4917301816985-How-to-Activate-the-VA-Aggregator",
+        "domain": "help.xendit.co",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236234"
+    },
+    {
+        "url": "https://apply07.grants.gov/apply/opportunities/instructions/PKG00277252-instructions.pdf",
+        "domain": "apply07.grants.gov",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236240"
+    },
+    {
+        "url": "https://www.bimopay.com/en/internet-banking.html",
+        "domain": "www.bimopay.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236254"
+    },
+    {
+        "url": "https://www.slash.com/swift-codes/bni",
+        "domain": "www.slash.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236259"
+    },
+    {
+        "url": "https://norbr.com/payment-methods/bank-negara-indonesia-bni/",
+        "domain": "norbr.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236266"
+    },
+    {
+        "url": "https://www.xe.com/swift-codes/BNICPTPL001/",
+        "domain": "www.xe.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236286"
+    },
+    {
+        "url": "https://dashboard.doku.com/docs/docs/jokul-direct/virtual-account/virtual-account-overview",
+        "domain": "dashboard.doku.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236291"
+    },
+    {
+        "url": "https://docs.adyen.com/development-resources/test-cards-and-credentials/alternative-payment-method-credentials/",
+        "domain": "docs.adyen.com",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236299"
+    },
+    {
+        "url": "https://www.dbs.com.sg/treasures/aics/templatedata/article/equity/data/en/DBSV/012014/BBNI_IJ.xml",
+        "domain": "www.dbs.com.sg",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236303"
+    },
+    {
+        "url": "https://openknowledge.worldbank.org/bitstreams/75ab8567-dfe6-559f-8f77-75bae6be0e08/download",
+        "domain": "openknowledge.worldbank.org",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236311"
+    },
+    {
+        "url": "https://documents1.worldbank.org/curated/en/099520211242139604/Final0Fiduciar0s0Program000P172707.docx",
+        "domain": "documents1.worldbank.org",
+        "status": "Safe",
+        "timestamp": "2026-05-09T11:53:35.236315"
     }
 ]
