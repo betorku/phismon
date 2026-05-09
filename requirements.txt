@@ -1,1 +1,5 @@
 requests
+rapidfuzz
+python-whois
+tldextract
+urllib3
