@@ -16,9 +16,15 @@ from urllib3.util.retry import Retry
 # OPTIONAL WHOIS SUPPORT
 # =========================================================
 
+ENABLE_WHOIS = False
+
 try:
-    import whois
-    WHOIS_ENABLED = True
+    if ENABLE_WHOIS:
+        import whois
+        WHOIS_ENABLED = True
+    else:
+        WHOIS_ENABLED = False
+
 except Exception:
     WHOIS_ENABLED = False
 
