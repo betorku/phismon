@@ -1,20 +1,34 @@
-import json
-import datetime
-import requests
 import os
+import json
 import math
 import re
-import whois
+import time
+import datetime
+import requests
 import tldextract
 
 from urllib.parse import urlparse
 from rapidfuzz import fuzz
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # =========================================================
-# CONFIG
+# OPTIONAL WHOIS SUPPORT
 # =========================================================
 
-TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
+try:
+    import whois
+    WHOIS_ENABLED = True
+except Exception:
+    WHOIS_ENABLED = False
+
+# =========================================================
+# CONFIGURATION
+# =========================================================
+
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+
+OUTPUT_FILE = "data.json"
 
 BRAND = "bni"
 
@@ -25,11 +39,23 @@ OFFICIAL_DOMAINS = [
 EXCLUDED_DOMAINS = [
     "facebook.com",
     "instagram.com",
-    "twitter.com",
-    "x.com",
     "linkedin.com",
     "youtube.com",
-    "tiktok.com"
+    "twitter.com",
+    "x.com",
+    "tiktok.com",
+]
+
+SEARCH_QUERIES = [
+    "bni direct login",
+    "bni cash management",
+    "bn1 login",
+    "bni secure portal",
+    "bni verification",
+    "bni account update",
+    "bni-direct login",
+    "bnidirect secure",
+    "bni internet banking login",
 ]
 
 SUSPICIOUS_KEYWORDS = [
@@ -45,7 +71,9 @@ SUSPICIOUS_KEYWORDS = [
     "token",
     "account",
     "password",
-    "webscr",
+    "banking",
+    "otp",
+    "wallet",
 ]
 
 SUSPICIOUS_TLDS = [
@@ -57,60 +85,93 @@ SUSPICIOUS_TLDS = [
     "click",
     "shop",
     "live",
+    "icu",
+    "info",
 ]
 
-SEARCH_QUERIES = [
-    "bni direct login",
-    "bni cash management",
-    "bn1 login",
-    "bni secure portal",
-    "bni verification",
-    "bni account update",
-    "bni-direct login",
-    "bnidirect secure",
+PHISHING_PATTERNS = [
+    "bn1",
+    "bnii",
+    "bnii",
+    "b-n-i",
+    "bnid",
+    "bnicash",
+    "bnidirect",
+    "bnisecure",
 ]
+
+# =========================================================
+# HTTP SESSION WITH RETRIES
+# =========================================================
+
+session = requests.Session()
+
+retries = Retry(
+    total=3,
+    backoff_factor=2,
+    status_forcelist=[429, 500, 502, 503, 504],
+)
+
+session.mount(
+    "https://",
+    HTTPAdapter(max_retries=retries)
+)
 
 # =========================================================
 # HELPERS
 # =========================================================
 
 def normalize_domain(url):
-    """
-    Extract root domain cleanly
-    Example:
-    https://secure.bni-login.xyz/path
-    -> bni-login.xyz
-    """
+
     ext = tldextract.extract(url)
+
     return f"{ext.domain}.{ext.suffix}".lower()
 
 
 def calculate_entropy(text):
-    """
-    Detect random-looking phishing domains
-    """
+
     if not text:
         return 0
 
-    prob = [float(text.count(c)) / len(text) for c in set(text)]
+    probabilities = [
+        float(text.count(c)) / len(text)
+        for c in set(text)
+    ]
 
-    return -sum(p * math.log(p, 2) for p in prob)
+    return -sum(
+        p * math.log(p, 2)
+        for p in probabilities
+    )
+
+
+def is_official_domain(domain):
+
+    return any(
+        domain.endswith(d)
+        for d in OFFICIAL_DOMAINS
+    )
 
 
 def get_domain_age(domain):
-    """
-    Get WHOIS age in days
-    """
-    try:
-        w = whois.whois(domain)
 
-        creation_date = w.creation_date
+    if not WHOIS_ENABLED:
+        return 9999
+
+    try:
+
+        result = whois.whois(domain)
+
+        creation_date = result.creation_date
 
         if isinstance(creation_date, list):
             creation_date = creation_date[0]
 
         if creation_date:
-            age = (datetime.datetime.utcnow() - creation_date).days
+
+            age = (
+                datetime.datetime.utcnow() - creation_date
+            ).days
+
             return age
 
     except Exception:
@@ -119,54 +180,42 @@ def get_domain_age(domain):
     return 9999
 
 
-def is_official_domain(domain):
-    return any(domain.endswith(d) for d in OFFICIAL_DOMAINS)
-
-
 def brand_similarity(domain):
-    """
-    Fuzzy matching against BNI
-    """
 
     root = tldextract.extract(domain).domain
 
     score = fuzz.ratio(root, BRAND)
 
-    # Handle common phishing tricks
-    phishing_patterns = [
-        "bn1",
-        "bnii",
-        "bnii",
-        "b-n-i",
-        "bnid",
-        "bnicash",
-        "bnidirect",
-    ]
+    for pattern in PHISHING_PATTERNS:
 
-    for p in phishing_patterns:
-        if p in root:
+        if pattern in root:
             score += 25
 
     return min(score, 100)
 
 
 def contains_suspicious_keywords(url):
+
     url = url.lower()
-    return [k for k in SUSPICIOUS_KEYWORDS if k in url]
+
+    return [
+        k for k in SUSPICIOUS_KEYWORDS
+        if k in url
+    ]
 
 
 def has_suspicious_tld(domain):
+
     suffix = tldextract.extract(domain).suffix
+
     return suffix in SUSPICIOUS_TLDS
 
 
 def contains_random_strings(domain):
-    """
-    Detect random phishing-like strings
-    Example:
-    bni-login-x82hja.com
-    """
-    return bool(re.search(r"[a-z0-9]{8,}", domain))
+
+    return bool(
+        re.search(r"[a-z0-9]{8,}", domain)
+    )
 
 
 # =========================================================
@@ -176,42 +225,54 @@ def contains_random_strings(domain):
 def calculate_risk(url):
 
     parsed = urlparse(url)
+
     domain = normalize_domain(url)
 
     score = 0
+
     reasons = []
 
     # -----------------------------------------------------
-    # Official domain check
+    # OFFICIAL DOMAIN CHECK
     # -----------------------------------------------------
 
     if is_official_domain(domain):
+
         return {
             "score": 0,
             "status": "Official",
-            "reasons": ["Official domain"]
+            "reasons": ["Official domain"],
+            "domain_age_days": 9999,
+            "entropy": 0,
+            "brand_similarity": 100,
         }
 
     # -----------------------------------------------------
-    # Brand similarity
+    # BRAND SIMILARITY
     # -----------------------------------------------------
 
     similarity = brand_similarity(domain)
 
     if similarity >= 90:
         score += 45
-        reasons.append(f"Very high brand similarity ({similarity})")
+        reasons.append(
+            f"Very high brand similarity ({similarity})"
+        )
 
     elif similarity >= 70:
         score += 30
-        reasons.append(f"High brand similarity ({similarity})")
+        reasons.append(
+            f"High brand similarity ({similarity})"
+        )
 
     elif similarity >= 50:
         score += 15
-        reasons.append(f"Medium brand similarity ({similarity})")
+        reasons.append(
+            f"Medium brand similarity ({similarity})"
+        )
 
     # -----------------------------------------------------
-    # Dash abuse
+    # DASH ABUSE
     # -----------------------------------------------------
 
     if "-" in domain:
@@ -219,80 +280,109 @@ def calculate_risk(url):
         reasons.append("Contains dash")
 
     # -----------------------------------------------------
-    # Suspicious keywords
+    # SUSPICIOUS KEYWORDS
     # -----------------------------------------------------
 
-    keywords = contains_suspicious_keywords(url)
+    matched_keywords = contains_suspicious_keywords(url)
 
-    if keywords:
-        keyword_score = min(len(keywords) * 10, 30)
+    if matched_keywords:
+
+        keyword_score = min(
+            len(matched_keywords) * 10,
+            30
+        )
+
         score += keyword_score
-        reasons.append(f"Suspicious keywords: {', '.join(keywords)}")
+
+        reasons.append(
+            f"Suspicious keywords: "
+            f"{', '.join(matched_keywords)}"
+        )
 
     # -----------------------------------------------------
-    # Suspicious TLD
+    # SUSPICIOUS TLD
     # -----------------------------------------------------
 
     if has_suspicious_tld(domain):
+
         score += 20
+
         reasons.append("Suspicious TLD")
 
     # -----------------------------------------------------
-    # Young domain
+    # DOMAIN AGE
     # -----------------------------------------------------
 
     age = get_domain_age(domain)
 
     if age < 7:
         score += 35
-        reasons.append(f"Very new domain ({age} days old)")
+        reasons.append(
+            f"Very new domain ({age} days)"
+        )
 
     elif age < 30:
         score += 20
-        reasons.append(f"New domain ({age} days old)")
+        reasons.append(
+            f"New domain ({age} days)"
+        )
 
     elif age < 90:
         score += 10
-        reasons.append(f"Recent domain ({age} days old)")
+        reasons.append(
+            f"Recent domain ({age} days)"
+        )
 
     # -----------------------------------------------------
-    # Entropy/randomness
+    # ENTROPY
     # -----------------------------------------------------
 
     entropy = calculate_entropy(domain)
 
     if entropy > 4:
         score += 15
-        reasons.append(f"High entropy ({entropy:.2f})")
+        reasons.append(
+            f"High entropy ({entropy:.2f})"
+        )
 
     # -----------------------------------------------------
-    # Random strings
+    # RANDOM STRINGS
     # -----------------------------------------------------
 
     if contains_random_strings(domain):
+
         score += 10
-        reasons.append("Random-looking string")
+
+        reasons.append(
+            "Random-looking domain pattern"
+        )
 
     # -----------------------------------------------------
-    # HTTP only
+    # NON-HTTPS
     # -----------------------------------------------------
 
     if parsed.scheme != "https":
+
         score += 10
-        reasons.append("Not using HTTPS")
+
+        reasons.append("No HTTPS")
 
     # -----------------------------------------------------
-    # Long subdomain chains
+    # SUBDOMAIN ABUSE
     # -----------------------------------------------------
 
     subdomain = tldextract.extract(url).subdomain
 
     if subdomain.count(".") >= 2:
+
         score += 10
-        reasons.append("Excessive subdomains")
+
+        reasons.append(
+            "Excessive subdomains"
+        )
 
     # =====================================================
-    # FINAL CLASSIFICATION
+    # CLASSIFICATION
     # =====================================================
 
     if score >= 80:
@@ -316,16 +406,16 @@ def calculate_risk(url):
         "brand_similarity": similarity,
     }
 
-
 # =========================================================
-# SEARCH
+# SEARCH ENGINE COLLECTION
 # =========================================================
 
 def fetch_search_results():
 
     if not TAVILY_API_KEY:
-        print("TAVILY_API_KEY missing")
-        return []
+        raise Exception(
+            "TAVILY_API_KEY missing"
+        )
 
     url = "https://api.tavily.com/search"
 
@@ -333,31 +423,38 @@ def fetch_search_results():
 
     for query in SEARCH_QUERIES:
 
+        print(f"[+] Searching: {query}")
+
         payload = {
             "api_key": TAVILY_API_KEY,
             "query": query,
             "search_depth": "advanced",
-            "max_results": 50,
+            "max_results": 30,
             "exclude_domains": EXCLUDED_DOMAINS,
         }
 
         try:
 
-            response = requests.post(
+            response = session.post(
                 url,
                 json=payload,
-                timeout=20
+                timeout=30,
             )
 
             if response.status_code != 200:
-                print(f"Search error: {response.status_code}")
+
+                print(
+                    f"[!] Tavily error: "
+                    f"{response.status_code}"
+                )
+
                 continue
 
             data = response.json()
 
             for result in data.get("results", []):
 
-                target_url = result.get("url", "")
+                target_url = result.get("url")
 
                 if not target_url:
                     continue
@@ -369,14 +466,19 @@ def fetch_search_results():
 
                 discovered.add(target_url)
 
+            time.sleep(1)
+
         except Exception as e:
-            print(f"Query failed [{query}]: {e}")
+
+            print(
+                f"[!] Query failed "
+                f"({query}): {e}"
+            )
 
     return list(discovered)
 
-
 # =========================================================
-# MAIN ANALYSIS
+# URL ANALYSIS
 # =========================================================
 
 def analyze_urls(urls):
@@ -394,43 +496,75 @@ def analyze_urls(urls):
                 "domain": normalize_domain(url),
                 "status": risk["status"],
                 "score": risk["score"],
-                "brand_similarity": risk["brand_similarity"],
-                "domain_age_days": risk["domain_age_days"],
-                "entropy": risk["entropy"],
-                "reasons": risk["reasons"],
-                "timestamp": datetime.datetime.utcnow().isoformat()
+                "brand_similarity":
+                    risk["brand_similarity"],
+                "domain_age_days":
+                    risk["domain_age_days"],
+                "entropy":
+                    risk["entropy"],
+                "reasons":
+                    risk["reasons"],
+                "timestamp":
+                    datetime.datetime.utcnow().isoformat()
             })
 
         except Exception as e:
-            print(f"Analysis failed for {url}: {e}")
 
-    findings.sort(key=lambda x: x["score"], reverse=True)
+            print(
+                f"[!] Failed analyzing "
+                f"{url}: {e}"
+            )
+
+    findings.sort(
+        key=lambda x: x["score"],
+        reverse=True
+    )
 
     return findings
 
+# =========================================================
+# SAVE RESULTS
+# =========================================================
+
+def save_results(results):
+
+    with open(OUTPUT_FILE, "w") as f:
+
+        json.dump(
+            results,
+            f,
+            indent=4
+        )
 
 # =========================================================
 # MAIN
 # =========================================================
 
-if __name__ == "__main__":
+def main():
 
-    print("[+] Starting phishing hunt...")
+    print("[+] Starting phishing hunt")
 
     urls = fetch_search_results()
 
-    print(f"[+] URLs collected: {len(urls)}")
+    print(f"[+] URLs discovered: {len(urls)}")
 
     results = analyze_urls(urls)
 
-    with open("data.json", "w") as f:
-        json.dump(results, f, indent=4)
+    save_results(results)
 
-    critical = len([x for x in results if x["status"] == "Critical"])
+    critical = len([
+        r for r in results
+        if r["status"] == "Critical"
+    ])
 
-    suspicious = len([x for x in results if x["status"] == "Suspicious"])
+    suspicious = len([
+        r for r in results
+        if r["status"] == "Suspicious"
+    ])
 
     print(f"[+] Critical findings : {critical}")
     print(f"[+] Suspicious findings : {suspicious}")
+    print(f"[+] Results saved to {OUTPUT_FILE}")
 
-    print("[+] Results saved to data.json")
+if __name__ == "__main__":
+    main()
