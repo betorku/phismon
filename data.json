@@ -11,21 +11,33 @@
             "Very high brand similarity (91.66666666666667)",
             "Contains dash"
         ],
-        "timestamp": "2026-05-10T11:51:51.285064"
+        "timestamp": "2026-05-10T13:17:19.608595"
     },
     {
-        "url": "https://apps.bnidirect.com/",
-        "domain": "bnidirect.com",
-        "status": "Suspicious",
-        "score": 55,
+        "url": "https://secure.bni.mg/retail/index.ebk",
+        "domain": "bni.mg",
+        "status": "Low Risk",
+        "score": 45,
         "brand_similarity": 100.0,
         "domain_age_days": 9999,
-        "entropy": 3.39,
+        "entropy": 2.58,
         "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
+            "Very high brand similarity (100.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.285177"
+        "timestamp": "2026-05-10T13:17:19.607648"
+    },
+    {
+        "url": "https://bni.la/en-US/Resources",
+        "domain": "bni.la",
+        "status": "Low Risk",
+        "score": 45,
+        "brand_similarity": 100.0,
+        "domain_age_days": 9999,
+        "entropy": 2.58,
+        "reasons": [
+            "Very high brand similarity (100.0)"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608223"
     },
     {
         "url": "https://www.bni.com/",
@@ -38,7 +50,7 @@
         "reasons": [
             "Very high brand similarity (100.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.284532"
+        "timestamp": "2026-05-10T13:17:19.608854"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com/",
@@ -54,7 +66,21 @@
             "Suspicious keywords: portal",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.284574"
+        "timestamp": "2026-05-10T13:17:19.610071"
+    },
+    {
+        "url": "https://bali.live/p/a-foreigners-guide-to-opening-a-bank-account-at-bni",
+        "domain": "bali.live",
+        "status": "Low Risk",
+        "score": 35,
+        "brand_similarity": 57.14285714285714,
+        "domain_age_days": 9999,
+        "entropy": 2.73,
+        "reasons": [
+            "Medium brand similarity (57.14285714285714)",
+            "Suspicious TLD"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609523"
     },
     {
         "url": "https://www.antaranews.com/berita/4660229/cara-mengaktifkan-m-banking-bni-yang-terblokir-tanpa-harus-ke-bank",
@@ -68,49 +94,20 @@
             "Suspicious keywords: banking, blokir",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.286440"
+        "timestamp": "2026-05-10T13:17:19.607198"
     },
     {
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5390851/",
-        "domain": "nih.gov",
+        "url": "https://www.ptbni.com.sg/",
+        "domain": "ptbni.com.sg",
         "status": "Low Risk",
-        "score": 25,
-        "brand_similarity": 66.66666666666667,
-        "domain_age_days": 9999,
-        "entropy": 2.81,
-        "reasons": [
-            "Medium brand similarity (66.66666666666667)",
-            "Excessive subdomains"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284252"
-    },
-    {
-        "url": "https://bnitampa.com/fl-tampa-bay-bni-direct-to-success/en-US/index",
-        "domain": "bnitampa.com",
-        "status": "Low Risk",
-        "score": 25,
-        "brand_similarity": 54.54545454545454,
-        "domain_age_days": 9999,
-        "entropy": 3.25,
-        "reasons": [
-            "Medium brand similarity (54.54545454545454)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284292"
-    },
-    {
-        "url": "https://merchant.qris-bni.com/",
-        "domain": "qris-bni.com",
-        "status": "Low Risk",
-        "score": 25,
-        "brand_similarity": 54.54545454545454,
+        "score": 30,
+        "brand_similarity": 75.0,
         "domain_age_days": 9999,
         "entropy": 3.42,
         "reasons": [
-            "Medium brand similarity (54.54545454545454)",
-            "Contains dash"
+            "High brand similarity (75.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.285351"
+        "timestamp": "2026-05-10T13:17:19.609278"
     },
     {
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC421669/",
@@ -124,133 +121,35 @@
             "Medium brand similarity (66.66666666666667)",
             "Excessive subdomains"
         ],
-        "timestamp": "2026-05-10T11:51:51.285606"
+        "timestamp": "2026-05-10T13:17:19.609780"
     },
     {
-        "url": "https://devportalawards.org/nominees/2025/bni-api-portal",
-        "domain": "devportalawards.org",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 0.0,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5390851/",
+        "domain": "nih.gov",
+        "status": "Low Risk",
+        "score": 25,
+        "brand_similarity": 66.66666666666667,
         "domain_age_days": 9999,
-        "entropy": 3.54,
+        "entropy": 2.81,
         "reasons": [
-            "Suspicious keywords: portal",
-            "Random-looking domain pattern"
+            "Medium brand similarity (66.66666666666667)",
+            "Excessive subdomains"
         ],
-        "timestamp": "2026-05-10T11:51:51.284371"
+        "timestamp": "2026-05-10T13:17:19.610117"
     },
     {
-        "url": "https://jakartaglobe.id/special-updates/bni-strengthens-digital-transformation-with-wholesale-innovation-hub",
-        "domain": "jakartaglobe.id",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 13.33333333333333,
+        "url": "https://merchant.qris-bni.com/",
+        "domain": "qris-bni.com",
+        "status": "Low Risk",
+        "score": 25,
+        "brand_similarity": 54.54545454545454,
         "domain_age_days": 9999,
-        "entropy": 3.59,
+        "entropy": 3.42,
         "reasons": [
-            "Suspicious keywords: update",
-            "Random-looking domain pattern"
+            "Medium brand similarity (54.54545454545454)",
+            "Contains dash"
         ],
-        "timestamp": "2026-05-10T11:51:51.284651"
-    },
-    {
-        "url": "https://jakartaglobe.id/special-updates/bni-helps-modernize-taxi-operator-bluebirds-services",
-        "domain": "jakartaglobe.id",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 13.33333333333333,
-        "domain_age_days": 9999,
-        "entropy": 3.59,
-        "reasons": [
-            "Suspicious keywords: update",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284880"
-    },
-    {
-        "url": "https://www.womensworldbanking.org/insights/growing-savings-and-financial-resilience-in-indonesia-realizing-a-savings-activation-solution-with-bni/",
-        "domain": "womensworldbanking.org",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 28.57142857142857,
-        "domain_age_days": 9999,
-        "entropy": 3.75,
-        "reasons": [
-            "Suspicious keywords: banking",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284989"
-    },
-    {
-        "url": "https://sumsel.tribunnews.com/2019/11/18/3-langkah-mudah-mengganti-password-bnidirect-untuk-antisipasi-berkala-boleh-dicoba",
-        "domain": "tribunnews.com",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 30.76923076923077,
-        "domain_age_days": 9999,
-        "entropy": 3.66,
-        "reasons": [
-            "Suspicious keywords: password",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285426"
-    },
-    {
-        "url": "https://thedigitalbanker.com/banking-simplified-how-bni-is-delivering-seamless-banking-experiences-through-apis/",
-        "domain": "thedigitalbanker.com",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 21.052631578947366,
-        "domain_age_days": 9999,
-        "entropy": 3.92,
-        "reasons": [
-            "Suspicious keywords: banking",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285731"
-    },
-    {
-        "url": "https://www.jack-wolfskin.com/",
-        "domain": "jack-wolfskin.com",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 12.5,
-        "domain_age_days": 9999,
-        "entropy": 3.73,
-        "reasons": [
-            "Contains dash",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285873"
-    },
-    {
-        "url": "https://www.euromoney.com/article/2a6zw63v240sh5xnnhji8/sponsored-content/supporting-clients-and-driving-revenues-through-transaction-banking/",
-        "domain": "euromoney.com",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 16.666666666666664,
-        "domain_age_days": 9999,
-        "entropy": 3.03,
-        "reasons": [
-            "Suspicious keywords: banking",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285912"
-    },
-    {
-        "url": "https://jakartaglobe.id/special-updates/bni-expands-emergency-response-aid-for-sumatra-flood-victims",
-        "domain": "jakartaglobe.id",
-        "status": "Likely Benign",
-        "score": 20,
-        "brand_similarity": 13.33333333333333,
-        "domain_age_days": 9999,
-        "entropy": 3.59,
-        "reasons": [
-            "Suspicious keywords: update",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.286053"
+        "timestamp": "2026-05-10T13:17:19.610242"
     },
     {
         "url": "https://asianbankingandfinance.net/exclusive/what-makes-bnis-api-service-stand-out-in-open-banking-era",
@@ -264,7 +163,105 @@
             "Suspicious keywords: banking",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.286366"
+        "timestamp": "2026-05-10T13:17:19.607006"
+    },
+    {
+        "url": "https://devportalawards.org/nominees/2025/bni-api-portal",
+        "domain": "devportalawards.org",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 3.54,
+        "reasons": [
+            "Suspicious keywords: portal",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.607318"
+    },
+    {
+        "url": "https://www.jack-wolfskin.com/",
+        "domain": "jack-wolfskin.com",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 12.5,
+        "domain_age_days": 9999,
+        "entropy": 3.73,
+        "reasons": [
+            "Contains dash",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.607605"
+    },
+    {
+        "url": "https://www.euromoney.com/article/2a6zw63v240sh5xnnhji8/sponsored-content/supporting-clients-and-driving-revenues-through-transaction-banking/",
+        "domain": "euromoney.com",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 16.666666666666664,
+        "domain_age_days": 9999,
+        "entropy": 3.03,
+        "reasons": [
+            "Suspicious keywords: banking",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.607867"
+    },
+    {
+        "url": "https://sumsel.tribunnews.com/2019/11/18/3-langkah-mudah-mengganti-password-bnidirect-untuk-antisipasi-berkala-boleh-dicoba",
+        "domain": "tribunnews.com",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 30.76923076923077,
+        "domain_age_days": 9999,
+        "entropy": 3.66,
+        "reasons": [
+            "Suspicious keywords: password",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608457"
+    },
+    {
+        "url": "https://thedigitalbanker.com/banking-simplified-how-bni-is-delivering-seamless-banking-experiences-through-apis/",
+        "domain": "thedigitalbanker.com",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 21.052631578947366,
+        "domain_age_days": 9999,
+        "entropy": 3.92,
+        "reasons": [
+            "Suspicious keywords: banking",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608903"
+    },
+    {
+        "url": "https://www.womensworldbanking.org/insights/growing-savings-and-financial-resilience-in-indonesia-realizing-a-savings-activation-solution-with-bni/",
+        "domain": "womensworldbanking.org",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 28.57142857142857,
+        "domain_age_days": 9999,
+        "entropy": 3.75,
+        "reasons": [
+            "Suspicious keywords: banking",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609332"
+    },
+    {
+        "url": "https://jakartaglobe.id/special-updates/bni-strengthens-digital-transformation-with-wholesale-innovation-hub",
+        "domain": "jakartaglobe.id",
+        "status": "Likely Benign",
+        "score": 20,
+        "brand_similarity": 13.33333333333333,
+        "domain_age_days": 9999,
+        "entropy": 3.59,
+        "reasons": [
+            "Suspicious keywords: update",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609573"
     },
     {
         "url": "https://www.nuvei.com/apm/bni-bank",
@@ -277,33 +274,7 @@
         "reasons": [
             "Medium brand similarity (50.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.284041"
-    },
-    {
-        "url": "https://bnimass.com/en-US/faq",
-        "domain": "bnimass.com",
-        "status": "Likely Benign",
-        "score": 15,
-        "brand_similarity": 60.0,
-        "domain_age_days": 9999,
-        "entropy": 3.1,
-        "reasons": [
-            "Medium brand similarity (60.0)"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284330"
-    },
-    {
-        "url": "https://www.nuvei.com/apm/bank-negara-indonesia",
-        "domain": "nuvei.com",
-        "status": "Likely Benign",
-        "score": 15,
-        "brand_similarity": 50.0,
-        "domain_age_days": 9999,
-        "entropy": 3.17,
-        "reasons": [
-            "Medium brand similarity (50.0)"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284771"
+        "timestamp": "2026-05-10T13:17:19.607501"
     },
     {
         "url": "https://whm.bills.com.au/sharp-stats/bank-negara-indonesia-persero-a-comprehensive-guide-1764801464",
@@ -316,150 +287,20 @@
         "reasons": [
             "Medium brand similarity (50.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.286124"
+        "timestamp": "2026-05-10T13:17:19.608139"
     },
     {
-        "url": "https://www.cloudera.com/customers/bank-negara-indonesia.html",
-        "domain": "cloudera.com",
+        "url": "https://www.nuvei.com/apm/bank-negara-indonesia",
+        "domain": "nuvei.com",
         "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 0.0,
+        "score": 15,
+        "brand_similarity": 50.0,
         "domain_age_days": 9999,
-        "entropy": 3.25,
+        "entropy": 3.17,
         "reasons": [
-            "Random-looking domain pattern"
+            "Medium brand similarity (50.0)"
         ],
-        "timestamp": "2026-05-10T11:51:51.283826"
-    },
-    {
-        "url": "https://documents1.worldbank.org/curated/en/732201468773057989/pdf/313800IND0damage1assessment01public1.pdf",
-        "domain": "worldbank.org",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 33.333333333333336,
-        "domain_age_days": 9999,
-        "entropy": 3.39,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.283995"
-    },
-    {
-        "url": "https://ijcsrr.org/strengthening-bnis-position-as-transactional-bank-by-optimization-of-cash-management-solutions/",
-        "domain": "ijcsrr.org",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 22.22222222222222,
-        "domain_age_days": 9999,
-        "entropy": 2.85,
-        "reasons": [
-            "Suspicious keywords: cash"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284421"
-    },
-    {
-        "url": "https://askcyborg.com/preview/banknegaraindonesia",
-        "domain": "askcyborg.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 16.666666666666664,
-        "domain_age_days": 9999,
-        "entropy": 3.39,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284497"
-    },
-    {
-        "url": "https://www.glory-global.com/",
-        "domain": "glory-global.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 13.33333333333333,
-        "domain_age_days": 9999,
-        "entropy": 3.28,
-        "reasons": [
-            "Contains dash"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284611"
-    },
-    {
-        "url": "https://buzzsumo.com/",
-        "domain": "buzzsumo.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 18.181818181818176,
-        "domain_age_days": 9999,
-        "entropy": 2.92,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284684"
-    },
-    {
-        "url": "https://asianbankerforums.com/tb_profiles/indonesia_Bank_Negara_Indonesia.html",
-        "domain": "asianbankerforums.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 19.999999999999996,
-        "domain_age_days": 9999,
-        "entropy": 3.69,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284809"
-    },
-    {
-        "url": "https://employee.barberinstitute.org/",
-        "domain": "barberinstitute.org",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 33.333333333333336,
-        "domain_age_days": 9999,
-        "entropy": 3.43,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284844"
-    },
-    {
-        "url": "https://www.change.org/topic/unlock-user-token-bni-direct-terkunci-id-id",
-        "domain": "change.org",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 22.22222222222222,
-        "domain_age_days": 9999,
-        "entropy": 3.12,
-        "reasons": [
-            "Suspicious keywords: token"
-        ],
-        "timestamp": "2026-05-10T11:51:51.284915"
-    },
-    {
-        "url": "https://bnimidamerica.com/en-US/bniconnect",
-        "domain": "bnimidamerica.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 37.5,
-        "domain_age_days": 9999,
-        "entropy": 3.29,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285136"
-    },
-    {
-        "url": "https://www.intoglobal.com/",
-        "domain": "intoglobal.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 15.384615384615385,
-        "domain_age_days": 9999,
-        "entropy": 3.32,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285245"
+        "timestamp": "2026-05-10T13:17:19.608411"
     },
     {
         "url": "https://www.thecorporatetreasurer.com/article/taking-digitalisation-to-the-next-level-with-bnidirect/478384",
@@ -472,98 +313,20 @@
         "reasons": [
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.285389"
+        "timestamp": "2026-05-10T13:17:19.607075"
     },
     {
-        "url": "https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00133-9/fulltext",
-        "domain": "thelancet.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 16.666666666666664,
-        "domain_age_days": 9999,
-        "entropy": 3.24,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285461"
-    },
-    {
-        "url": "https://www.ursawhite.com/our-works/bni-direct",
-        "domain": "ursawhite.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 16.666666666666664,
-        "domain_age_days": 9999,
-        "entropy": 3.7,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285496"
-    },
-    {
-        "url": "https://devotion.greenvest.co.id/index.php/dev/article/view/521/962",
-        "domain": "greenvest.co.id",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 16.666666666666664,
-        "domain_age_days": 9999,
-        "entropy": 3.46,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285572"
-    },
-    {
-        "url": "https://www.lemon8-app.com/@layanantokopedia3/7562988684157452816?region=id",
-        "domain": "lemon8-app.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 15.384615384615385,
-        "domain_age_days": 9999,
-        "entropy": 3.38,
-        "reasons": [
-            "Contains dash"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285642"
-    },
-    {
-        "url": "https://apps.apple.com/us/app/mobile-token-bni/id1673638763",
-        "domain": "apple.com",
+        "url": "https://www.cloudera.com/customers/bank-negara-indonesia.html",
+        "domain": "cloudera.com",
         "status": "Likely Benign",
         "score": 10,
         "brand_similarity": 0.0,
         "domain_age_days": 9999,
-        "entropy": 2.95,
-        "reasons": [
-            "Suspicious keywords: token"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285766"
-    },
-    {
-        "url": "https://www.journalkeberlanjutan.keberlanjutanstrategis.com/index.php/jtep/article/download/1004/851",
-        "domain": "keberlanjutanstrategis.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 24.0,
-        "domain_age_days": 9999,
-        "entropy": 3.92,
+        "entropy": 3.25,
         "reasons": [
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.285805"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/",
-        "domain": "bniconnectglobal.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 31.57894736842105,
-        "domain_age_days": 9999,
-        "entropy": 3.41,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.285981"
+        "timestamp": "2026-05-10T13:17:19.607137"
     },
     {
         "url": "https://matrixbcg.com/blogs/how-it-works/bni",
@@ -576,59 +339,7 @@
         "reasons": [
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.286158"
-    },
-    {
-        "url": "https://www.banktrack.org/bank/bank_negara_indonesia",
-        "domain": "banktrack.org",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 33.333333333333336,
-        "domain_age_days": 9999,
-        "entropy": 3.24,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.286192"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
-        "domain": "bniconnectglobal.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 31.57894736842105,
-        "domain_age_days": 9999,
-        "entropy": 3.41,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.286227"
-    },
-    {
-        "url": "https://id.yamaha.com/id/support/updates/ctl-bn1-firm.html",
-        "domain": "yamaha.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [
-            "Suspicious keywords: update"
-        ],
-        "timestamp": "2026-05-10T11:51:51.286404"
-    },
-    {
-        "url": "https://www.zoominfo.com/p/Ivander-Sianipar/8141594316",
-        "domain": "zoominfo.com",
-        "status": "Likely Benign",
-        "score": 10,
-        "brand_similarity": 18.181818181818176,
-        "domain_age_days": 9999,
-        "entropy": 2.75,
-        "reasons": [
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-10T11:51:51.286473"
+        "timestamp": "2026-05-10T13:17:19.607432"
     },
     {
         "url": "https://manuals.plus/qa/7048905/unlock-mobile-token-bni-direct-terkunci",
@@ -641,7 +352,254 @@
         "reasons": [
             "Suspicious keywords: token"
         ],
-        "timestamp": "2026-05-10T11:51:51.286508"
+        "timestamp": "2026-05-10T13:17:19.607740"
+    },
+    {
+        "url": "https://akademik.untag-sby.ac.id/backend/uploads/pdf/9479446.pdf",
+        "domain": "untag-sby.ac.id",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 16.666666666666664,
+        "domain_age_days": 9999,
+        "entropy": 3.64,
+        "reasons": [
+            "Contains dash"
+        ],
+        "timestamp": "2026-05-10T13:17:19.607968"
+    },
+    {
+        "url": "https://frontlineaids.org/our-focus-areas/action-3/",
+        "domain": "frontlineaids.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 25.0,
+        "domain_age_days": 9999,
+        "entropy": 3.62,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608011"
+    },
+    {
+        "url": "https://id.yamaha.com/id/support/updates/ctl-bn1-firm.html",
+        "domain": "yamaha.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [
+            "Suspicious keywords: update"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608052"
+    },
+    {
+        "url": "https://apps.apple.com/us/app/mobile-token-bni/id1673638763",
+        "domain": "apple.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.95,
+        "reasons": [
+            "Suspicious keywords: token"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608092"
+    },
+    {
+        "url": "https://www.banktrack.org/bank/bank_negara_indonesia",
+        "domain": "banktrack.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 33.333333333333336,
+        "domain_age_days": 9999,
+        "entropy": 3.24,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608181"
+    },
+    {
+        "url": "https://www.dutchbros.com/",
+        "domain": "dutchbros.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 16.666666666666664,
+        "domain_age_days": 9999,
+        "entropy": 3.39,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608265"
+    },
+    {
+        "url": "https://ijcsrr.org/strengthening-bnis-position-as-transactional-bank-by-optimization-of-cash-management-solutions/",
+        "domain": "ijcsrr.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 22.22222222222222,
+        "domain_age_days": 9999,
+        "entropy": 2.85,
+        "reasons": [
+            "Suspicious keywords: cash"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608307"
+    },
+    {
+        "url": "https://employee.barberinstitute.org/",
+        "domain": "barberinstitute.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 33.333333333333336,
+        "domain_age_days": 9999,
+        "entropy": 3.43,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608680"
+    },
+    {
+        "url": "https://www.worldbenchmarkingalliance.org/company/bank-negara-indonesia",
+        "domain": "worldbenchmarkingalliance.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 21.42857142857143,
+        "domain_age_days": 9999,
+        "entropy": 3.86,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608724"
+    },
+    {
+        "url": "https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00133-9/fulltext",
+        "domain": "thelancet.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 16.666666666666664,
+        "domain_age_days": 9999,
+        "entropy": 3.24,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608813"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
+        "domain": "bniconnectglobal.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 31.57894736842105,
+        "domain_age_days": 9999,
+        "entropy": 3.41,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.608946"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/",
+        "domain": "bniconnectglobal.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 31.57894736842105,
+        "domain_age_days": 9999,
+        "entropy": 3.41,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609025"
+    },
+    {
+        "url": "https://www.intoglobal.com/",
+        "domain": "intoglobal.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 15.384615384615385,
+        "domain_age_days": 9999,
+        "entropy": 3.32,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609107"
+    },
+    {
+        "url": "https://covid.fabriciano.mg.gov.br/official-origin/oscsitec-bni-your-guide-to-navigating-the-online-system-1767646583",
+        "domain": "fabriciano.mg.gov.br",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 30.76923076923077,
+        "domain_age_days": 9999,
+        "entropy": 3.48,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609154"
+    },
+    {
+        "url": "https://www.barberinstitute.org/",
+        "domain": "barberinstitute.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 33.333333333333336,
+        "domain_age_days": 9999,
+        "entropy": 3.43,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609394"
+    },
+    {
+        "url": "https://www.ursawhite.com/our-works/bni-direct",
+        "domain": "ursawhite.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 16.666666666666664,
+        "domain_age_days": 9999,
+        "entropy": 3.7,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609441"
+    },
+    {
+        "url": "https://mwm.ai/apps/mobile-token-bni/1673638763",
+        "domain": "mwm.ai",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.25,
+        "reasons": [
+            "Suspicious keywords: token"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609614"
+    },
+    {
+        "url": "https://openknowledge.worldbank.org/bitstreams/47721b44-d05e-5801-bdab-ef10cee0b82c/download",
+        "domain": "worldbank.org",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 33.333333333333336,
+        "domain_age_days": 9999,
+        "entropy": 3.39,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609906"
+    },
+    {
+        "url": "https://observerid.com/bnidirect-bisnis-a-simple-digital-solution-for-smes/",
+        "domain": "observerid.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 30.76923076923077,
+        "domain_age_days": 9999,
+        "entropy": 3.38,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.609946"
     },
     {
         "url": "https://portersfiveforce.com/blogs/how-it-works/bni",
@@ -654,7 +612,33 @@
         "reasons": [
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.286542"
+        "timestamp": "2026-05-10T13:17:19.609987"
+    },
+    {
+        "url": "https://bnimidamerica.com/en-US/bniconnect",
+        "domain": "bnimidamerica.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 37.5,
+        "domain_age_days": 9999,
+        "entropy": 3.29,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.610027"
+    },
+    {
+        "url": "https://www.lemon8-app.com/@layanantokopedia3/7562988684157452816?region=id",
+        "domain": "lemon8-app.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 15.384615384615385,
+        "domain_age_days": 9999,
+        "entropy": 3.38,
+        "reasons": [
+            "Contains dash"
+        ],
+        "timestamp": "2026-05-10T13:17:19.610380"
     },
     {
         "url": "https://www.telkomsel.com/jelajah/jelajah-lifestyle/serba-serbi-bni-direct-fitur-manfaat-dan-cara-daftar",
@@ -667,150 +651,33 @@
         "reasons": [
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-10T11:51:51.286613"
+        "timestamp": "2026-05-10T13:17:19.610425"
     },
     {
-        "url": "https://www.merkle.com/",
-        "domain": "merkle.com",
+        "url": "https://www.journalkeberlanjutan.keberlanjutanstrategis.com/index.php/jtep/article/download/1004/851",
+        "domain": "keberlanjutanstrategis.com",
         "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
+        "score": 10,
+        "brand_similarity": 24.0,
+        "domain_age_days": 9999,
+        "entropy": 3.92,
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.610472"
+    },
+    {
+        "url": "https://buzzsumo.com/",
+        "domain": "buzzsumo.com",
+        "status": "Likely Benign",
+        "score": 10,
+        "brand_similarity": 18.181818181818176,
         "domain_age_days": 9999,
         "entropy": 2.92,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.283901"
-    },
-    {
-        "url": "https://apps.apple.com/sg/app/bnidirect-mobile/id1471093490",
-        "domain": "apple.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.95,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.283948"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=en_GB",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284081"
-    },
-    {
-        "url": "https://www.boston.gov/departments/age-strong-commission/public-restrooms-city-boston",
-        "domain": "boston.gov",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 44.44444444444444,
-        "domain_age_days": 9999,
-        "entropy": 2.85,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284120"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=id",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284170"
-    },
-    {
-        "url": "https://2009-2017.state.gov/outofdate/bgn/indonesia/110846.htm",
-        "domain": "state.gov",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.95,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284211"
-    },
-    {
-        "url": "https://artikel.pajakku.com/e-bill-troubleshoot-pembuatan-kode-billing",
-        "domain": "pajakku.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 3.1,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284460"
-    },
-    {
-        "url": "https://apps.apple.com/us/app/brighton-mobile/id1491958834",
-        "domain": "apple.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.95,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284732"
-    },
-    {
-        "url": "https://www.tableau.com/solutions/customer/Bank-Negara-Indonesia-consolidates-data-millions-of-customers",
-        "domain": "tableau.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 19.999999999999996,
-        "domain_age_days": 9999,
-        "entropy": 3.28,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.284950"
-    },
-    {
-        "url": "https://digilib.itb.ac.id/assets/files/2024/MjAyNCBUUyBQUCBSSU5HR0EgSEFTWUVMTEEgSEFSQUhBUCAtIEJBQiAxLnBkZg.pdf",
-        "domain": "itb.ac.id",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 33.333333333333336,
-        "domain_age_days": 9999,
-        "entropy": 2.73,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285026"
-    },
-    {
-        "url": "https://www.kfc.com/",
-        "domain": "kfc.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.52,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285100"
-    },
-    {
-        "url": "https://norbr.com/payment-methods/bank-negara-indonesia-bni/",
-        "domain": "norbr.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 25.0,
-        "domain_age_days": 9999,
-        "entropy": 2.73,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285210"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=src.com.bni&hl=en_ZA",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285279"
+        "reasons": [
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-10T13:17:19.610514"
     },
     {
         "url": "https://apps.apple.com/us/app/bnidirect-mobile/id1471093490",
@@ -821,117 +688,18 @@
         "domain_age_days": 9999,
         "entropy": 2.95,
         "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285314"
+        "timestamp": "2026-05-10T13:17:19.606910"
     },
     {
-        "url": "https://www.xendit.co/en/payment-channel/bni/",
-        "domain": "xendit.co",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 44.44444444444444,
-        "domain_age_days": 9999,
-        "entropy": 3.17,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285534"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=es_US",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285676"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285837"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=src.com.bni&hl=id",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.285945"
-    },
-    {
-        "url": "https://www.dupont.com/locations.html",
-        "domain": "dupont.com",
+        "url": "https://www.scribd.com/document/906120207/1004-Article-Text-4748-1-10-20240417",
+        "domain": "scribd.com",
         "status": "Likely Benign",
         "score": 0,
         "brand_similarity": 22.22222222222222,
         "domain_age_days": 9999,
         "entropy": 3.12,
         "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286017"
-    },
-    {
-        "url": "https://apps.apple.com/ci/app/bnidirect-mobile/id1471093490",
-        "domain": "apple.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.95,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286086"
-    },
-    {
-        "url": "https://www.imf.org/external/np/loi/1999/072299.htm",
-        "domain": "imf.org",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 33.333333333333336,
-        "domain_age_days": 9999,
-        "entropy": 2.81,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286260"
-    },
-    {
-        "url": "https://ijcsrr.org/wp-content/uploads/2024/07/11-0407-2024.pdf",
-        "domain": "ijcsrr.org",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 22.22222222222222,
-        "domain_age_days": 9999,
-        "entropy": 2.85,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286293"
-    },
-    {
-        "url": "https://play.google.com/store/apps/details?id=src.com.bni",
-        "domain": "google.com",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 0.0,
-        "domain_age_days": 9999,
-        "entropy": 2.65,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286328"
-    },
-    {
-        "url": "https://brainly.co.id/tugas/56406549",
-        "domain": "brainly.co.id",
-        "status": "Likely Benign",
-        "score": 0,
-        "brand_similarity": 40.0,
-        "domain_age_days": 9999,
-        "entropy": 3.39,
-        "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286578"
+        "timestamp": "2026-05-10T13:17:19.607256"
     },
     {
         "url": "https://www.seepex.com/en/",
@@ -942,6 +710,259 @@
         "domain_age_days": 9999,
         "entropy": 2.85,
         "reasons": [],
-        "timestamp": "2026-05-10T11:51:51.286646"
+        "timestamp": "2026-05-10T13:17:19.607554"
+    },
+    {
+        "url": "https://apps.apple.com/us/app/brighton-mobile/id1491958834",
+        "domain": "apple.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.95,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.607693"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.607783"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=src.com.bni&hl=id",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.607822"
+    },
+    {
+        "url": "https://www.mottmac.com/en-us/our-offices/",
+        "domain": "mottmac.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.48,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.607916"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=src.com.bni&hl=en_ZA",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608366"
+    },
+    {
+        "url": "https://ash.harvard.edu/wp-content/uploads/2024/02/fromreformasitoinstitutionaltransformation.pdf",
+        "domain": "harvard.edu",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.91,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608498"
+    },
+    {
+        "url": "https://www.trade.gov/country-commercial-guides/indonesia-trade-financing",
+        "domain": "trade.gov",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 3.17,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608546"
+    },
+    {
+        "url": "https://artikel.pajakku.com/e-bill-troubleshoot-pembuatan-kode-billing",
+        "domain": "pajakku.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 3.1,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608637"
+    },
+    {
+        "url": "https://www.tableau.com/solutions/customer/Bank-Negara-Indonesia-consolidates-data-millions-of-customers",
+        "domain": "tableau.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 19.999999999999996,
+        "domain_age_days": 9999,
+        "entropy": 3.28,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608769"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=id",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.608986"
+    },
+    {
+        "url": "https://brainly.co.id/tugas/56406549",
+        "domain": "brainly.co.id",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 40.0,
+        "domain_age_days": 9999,
+        "entropy": 3.39,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609067"
+    },
+    {
+        "url": "https://www.belden.com/about/locations",
+        "domain": "belden.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 44.44444444444444,
+        "domain_age_days": 9999,
+        "entropy": 3.12,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609194"
+    },
+    {
+        "url": "https://www.ihg.com/holidayinn/hotels/us/en/brighton/bhtsf/hoteldetail/local-guide-whats-nearby",
+        "domain": "ihg.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 33.333333333333336,
+        "domain_age_days": 9999,
+        "entropy": 2.81,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609233"
+    },
+    {
+        "url": "https://www.kfc.com/",
+        "domain": "kfc.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.52,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609479"
+    },
+    {
+        "url": "https://www.xendit.co/en/payment-channel/bni/",
+        "domain": "xendit.co",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 44.44444444444444,
+        "domain_age_days": 9999,
+        "entropy": 3.17,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609658"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=en_IE",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609699"
+    },
+    {
+        "url": "https://norbr.com/payment-methods/bank-negara-indonesia-bni/",
+        "domain": "norbr.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 25.0,
+        "domain_age_days": 9999,
+        "entropy": 2.73,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609737"
+    },
+    {
+        "url": "https://www.boston.gov/departments/311/snow-emergency-parking",
+        "domain": "boston.gov",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 44.44444444444444,
+        "domain_age_days": 9999,
+        "entropy": 2.85,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609820"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=es_US",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.609860"
+    },
+    {
+        "url": "https://2009-2017.state.gov/outofdate/bgn/indonesia/110846.htm",
+        "domain": "state.gov",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.95,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.610157"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=src.com.bni",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.610200"
+    },
+    {
+        "url": "https://play.google.com/store/apps/details?id=id.co.bni.bnidirectmobile&hl=en_GB",
+        "domain": "google.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.65,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.610280"
+    },
+    {
+        "url": "https://apps.apple.com/sg/app/bnidirect-mobile/id1471093490",
+        "domain": "apple.com",
+        "status": "Likely Benign",
+        "score": 0,
+        "brand_similarity": 0.0,
+        "domain_age_days": 9999,
+        "entropy": 2.95,
+        "reasons": [],
+        "timestamp": "2026-05-10T13:17:19.610319"
     }
 ]
