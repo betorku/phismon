@@ -43,6 +43,8 @@ EXCLUDED_DOMAINS = [
     "tiktok.com",
     "wikipedia.org",
     "reddit.com",
+    "bni.com",
+    "bniconnect.com",
 ]
 
 SEARCH_QUERIES = [
