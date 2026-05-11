@@ -5,10 +5,8 @@ import re
 import time
 import socket
 import datetime
-import concurrent.futures
 import requests
 import tldextract
-import whois
 
 from urllib.parse import urlparse
 from rapidfuzz import fuzz
@@ -25,11 +23,11 @@ OUTPUT_FILE = "data.json"
 
 BRAND = "bni"
 
-# ONLY KEEP DOMAINS YOUNGER THAN THIS
-MAX_DOMAIN_AGE_DAYS = 30
+# Minimum score to save
+MINIMUM_SCORE = 50
 
-# MINIMUM RISK SCORE TO SAVE
-MINIMUM_SCORE = 40
+# Minimum brand similarity
+MINIMUM_BRAND_SIMILARITY = 70
 
 OFFICIAL_DOMAINS = [
     "bni.co.id",
@@ -44,6 +42,7 @@ EXCLUDED_DOMAINS = [
     "x.com",
     "tiktok.com",
     "wikipedia.org",
+    "reddit.com",
 ]
 
 SEARCH_QUERIES = [
@@ -83,6 +82,18 @@ SUSPICIOUS_KEYWORDS = [
     "payment",
     "reset",
     "blokir",
+]
+
+SUSPICIOUS_PATHS = [
+    "/login",
+    "/signin",
+    "/verify",
+    "/secure",
+    "/auth",
+    "/update",
+    "/reset",
+    "/otp",
+    "/portal",
 ]
 
 SUSPICIOUS_TLDS = [
@@ -181,7 +192,11 @@ def brand_similarity(domain):
 
     root = tldextract.extract(domain).domain
 
-    score = fuzz.ratio(root, BRAND)
+    score = max(
+        fuzz.ratio(root, BRAND),
+        fuzz.partial_ratio(root, BRAND),
+        fuzz.token_sort_ratio(root, BRAND),
+    )
 
     for pattern in PHISHING_PATTERNS:
 
@@ -199,6 +214,17 @@ def contains_suspicious_keywords(url):
         keyword
         for keyword in SUSPICIOUS_KEYWORDS
         if keyword in url
+    ]
+
+
+def contains_suspicious_paths(url):
+
+    url = url.lower()
+
+    return [
+        path
+        for path in SUSPICIOUS_PATHS
+        if path in url
     ]
 
 
@@ -239,51 +265,6 @@ def detect_suspicious_url_length(url):
 
 
 # =========================================================
-# WHOIS WITH TIMEOUT PROTECTION
-# =========================================================
-
-def safe_whois_lookup(domain):
-
-    try:
-
-        result = whois.whois(domain)
-
-        creation_date = result.creation_date
-
-        if isinstance(creation_date, list):
-            creation_date = creation_date[0]
-
-        if creation_date:
-
-            age = (
-                datetime.datetime.utcnow() - creation_date
-            ).days
-
-            return age
-
-    except Exception:
-        pass
-
-    return None
-
-
-def get_domain_age(domain):
-
-    try:
-
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-
-            future = executor.submit(
-                safe_whois_lookup,
-                domain
-            )
-
-            return future.result(timeout=5)
-
-    except Exception:
-        return None
-
-# =========================================================
 # HOSTING PROVIDER DETECTION
 # =========================================================
 
@@ -309,7 +290,7 @@ def get_hosting_provider(domain):
 # RISK ENGINE
 # =========================================================
 
-def calculate_risk(url, age):
+def calculate_risk(url):
 
     parsed = urlparse(url)
 
@@ -387,6 +368,21 @@ def calculate_risk(url, age):
         )
 
     # -----------------------------------------------------
+    # PHISHING PATHS
+    # -----------------------------------------------------
+
+    matched_paths = contains_suspicious_paths(url)
+
+    if matched_paths:
+
+        score += 20
+
+        reasons.append(
+            f"Suspicious paths: "
+            f"{', '.join(matched_paths)}"
+        )
+
+    # -----------------------------------------------------
     # DASH ABUSE
     # -----------------------------------------------------
 
@@ -405,26 +401,6 @@ def calculate_risk(url, age):
         score += 20
 
         reasons.append("Suspicious TLD")
-
-    # -----------------------------------------------------
-    # DOMAIN AGE
-    # -----------------------------------------------------
-
-    if age <= 7:
-
-        score += 35
-
-        reasons.append(
-            f"Very new domain ({age} days)"
-        )
-
-    elif age <= 30:
-
-        score += 20
-
-        reasons.append(
-            f"New domain ({age} days)"
-        )
 
     # -----------------------------------------------------
     # HIGH ENTROPY
@@ -521,11 +497,8 @@ def calculate_risk(url, age):
     if score >= 80:
         status = "Critical"
 
-    elif score >= 50:
+    elif score >= 60:
         status = "Suspicious"
-
-    elif score >= 40:
-        status = "Medium"
 
     else:
         status = "Low"
@@ -564,6 +537,10 @@ def fetch_search_results():
             "search_depth": "advanced",
             "max_results": 30,
             "exclude_domains": EXCLUDED_DOMAINS,
+
+            # IMPORTANT:
+            # Only recent indexed/search results
+            "days": 30
         }
 
         try:
@@ -624,47 +601,29 @@ def analyze_urls(urls):
 
             domain = normalize_domain(url)
 
-            print(f"[+] Checking age: {domain}")
-
-            age = get_domain_age(domain)
+            risk = calculate_risk(url)
 
             # -------------------------------------------------
-            # STRICT AGE FILTER
+            # STRICT FILTERING
             # -------------------------------------------------
 
-            if age is None:
+            if (
+                risk["brand_similarity"]
+                < MINIMUM_BRAND_SIMILARITY
+            ):
 
                 print(
-                    f"[!] Skipping {domain} "
-                    f"(unknown age)"
+                    f"[-] Low similarity skipped: "
+                    f"{domain}"
                 )
 
                 continue
-
-            if age > MAX_DOMAIN_AGE_DAYS:
-
-                print(
-                    f"[-] Skipping old domain: "
-                    f"{domain} ({age} days)"
-                )
-
-                continue
-
-            # -------------------------------------------------
-            # RISK ANALYSIS
-            # -------------------------------------------------
-
-            risk = calculate_risk(url, age)
-
-            # -------------------------------------------------
-            # MINIMUM SCORE FILTER
-            # -------------------------------------------------
 
             if risk["score"] < MINIMUM_SCORE:
 
                 print(
                     f"[-] Low score skipped: "
-                    f"{domain} ({risk['score']})"
+                    f"{domain}"
                 )
 
                 continue
@@ -674,7 +633,6 @@ def analyze_urls(urls):
                 "domain": domain,
                 "status": risk["status"],
                 "score": risk["score"],
-                "domain_age_days": age,
                 "brand_similarity":
                     risk["brand_similarity"],
                 "entropy":
