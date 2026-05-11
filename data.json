@@ -13,7 +13,7 @@
             "Suspicious paths: /login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:41:22.575588"
+        "timestamp": "2026-05-11T03:28:51.388337"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com/",
@@ -29,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:41:41.068768"
+        "timestamp": "2026-05-11T03:28:38.273022"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -44,7 +44,21 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-05-11T02:41:37.842700"
+        "timestamp": "2026-05-11T03:28:51.166344"
+    },
+    {
+        "url": "https://bizchannel.cimbniaga.co.id/corp/",
+        "domain": "cimbniaga.co.id",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.19,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T03:28:53.203502"
     },
     {
         "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
@@ -58,7 +72,7 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:41:22.742375"
+        "timestamp": "2026-05-11T03:28:53.228637"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
@@ -72,20 +86,6 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:41:24.949326"
-    },
-    {
-        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy/",
-        "domain": "bnisekuritas.co.id",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.68,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:42:00.564001"
+        "timestamp": "2026-05-11T03:28:54.709623"
     }
 ]
