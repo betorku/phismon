@@ -21,7 +21,7 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
 OUTPUT_FILE = "data.json"
 
-BRAND = "BNIDirect"
+BRAND = "BNI"
 
 # Minimum score to save
 MINIMUM_SCORE = 50
