@@ -48,16 +48,15 @@ EXCLUDED_DOMAINS = [
 ]
 
 SEARCH_QUERIES = [
-    "bni direct login",
-    "bnidirect login",
-    "bn1 direct login",
-    "bni secure portal",
-    "bni internet banking",
-    "bni cash management",
-    "bni reset password",
-    "bni otp verification",
-    "bni account verification",
-    "bni login indonesia",
+    "bni direct login Indonesia",
+    "bnidirect login Indonesia",
+    "bn1 direct login Indonesia",
+    "bni secure portal Indonesia",
+    "bni cash management Indonesia",
+    "bni reset password Indonesia",
+    "bni otp reset Indonesia",
+    "bni account verification Indonesia",
+    "bni direct login indonesia",
 ]
 
 # =========================================================
