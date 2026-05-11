@@ -14,71 +14,38 @@
             "Random-looking domain pattern",
             "Hosted on aws"
         ],
-        "timestamp": "2026-05-11T02:12:25.714908"
+        "timestamp": "2026-05-11T02:18:50.850815"
     },
     {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/37594964997901-How-do-I-reset-my-BNI-BUSINESS-BUILDER-password",
-        "domain": "bniconnect.com",
+        "url": "https://www.bnibenefits.com/index.php/resetOwnPassword/",
+        "domain": "bnibenefits.com",
         "status": "Critical",
-        "score": 85,
+        "score": 95,
         "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
+        "entropy": 3.37,
+        "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
             "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
+            "Suspicious paths: /reset",
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:09.969751"
+        "timestamp": "2026-05-11T02:18:26.455111"
     },
     {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219066457-Password-Reset-Process",
-        "domain": "bniconnect.com",
+        "url": "https://www.bnitm.de/bniapps/alumni-moodle/login/forgot_password.php",
+        "domain": "bnitm.de",
         "status": "Critical",
         "score": 85,
         "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
+        "entropy": 3.0,
+        "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
+            "Suspicious keywords: login, password",
+            "Suspicious paths: /login"
         ],
-        "timestamp": "2026-05-11T02:12:10.988676"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/37168288115853-How-do-I-reset-my-BNI-CONNECT-password",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:22.528817"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219066377-Password-Reset-Process",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:22.617269"
+        "timestamp": "2026-05-11T02:18:31.189090"
     },
     {
         "url": "https://bni-vaportal.com/forgot_password",
@@ -94,55 +61,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:24.586659"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/44244570720141-Login-Accounts-Explained",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: login, account",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:26.392765"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/229709988-PASSWORD-RESET-PROCESS",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:32.416364"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/115005126968-Reset-Your-Password-Mobile-App",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:46.997164"
+        "timestamp": "2026-05-11T02:18:47.508709"
     },
     {
         "url": "https://bnitax.com/portal/",
@@ -158,23 +77,7 @@
             "Suspicious paths: /portal",
             "Hosted on aws"
         ],
-        "timestamp": "2026-05-11T02:12:48.585751"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219066387-Establishing-a-BNI-Connect-User-Account",
-        "domain": "bniconnect.com",
-        "status": "Suspicious",
-        "score": 75,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: account",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:23.693481"
+        "timestamp": "2026-05-11T02:18:50.730135"
     },
     {
         "url": "https://bni48.com/login/",
@@ -189,22 +92,7 @@
             "Suspicious keywords: login",
             "Suspicious paths: /login"
         ],
-        "timestamp": "2026-05-11T02:12:33.306980"
-    },
-    {
-        "url": "https://secure.bni.mg/retail/index.ebk",
-        "domain": "bni.mg",
-        "status": "Suspicious",
-        "score": 75,
-        "brand_similarity": 100.0,
-        "entropy": 2.58,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: secure",
-            "Suspicious paths: /secure"
-        ],
-        "timestamp": "2026-05-11T02:12:46.591436"
+        "timestamp": "2026-05-11T02:18:33.174596"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com/",
@@ -220,7 +108,22 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:52.701019"
+        "timestamp": "2026-05-11T02:18:34.037021"
+    },
+    {
+        "url": "https://secure.bni.mg/retail/index.ebk",
+        "domain": "bni.mg",
+        "status": "Suspicious",
+        "score": 75,
+        "brand_similarity": 100.0,
+        "entropy": 2.58,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: secure",
+            "Suspicious paths: /secure"
+        ],
+        "timestamp": "2026-05-11T02:18:49.493124"
     },
     {
         "url": "https://www.qa.bniconnect.io/",
@@ -235,7 +138,22 @@
             "Random-looking domain pattern",
             "Hosted on aws"
         ],
-        "timestamp": "2026-05-11T02:12:09.795282"
+        "timestamp": "2026-05-11T02:18:26.333628"
+    },
+    {
+        "url": "https://bnipowerofone.com/bni-833-chapter-dues-and-chapter-checking-accounts/",
+        "domain": "bnipowerofone.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.38,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: account",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:26.372827"
     },
     {
         "url": "https://bni-sclowcountry.com/en-US/resources",
@@ -250,82 +168,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:10.665490"
-    },
-    {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:21.987282"
-    },
-    {
-        "url": "https://bnisoutheast.com/sc-upstate-bni---profit-partners/en-US/memberdetails?encryptedMemberId=6T9hIgfareDZFpg9woekig%3D%3D&cmsv3=true&name=Joy+Kamees",
-        "domain": "bnisoutheast.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.62,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern",
-            "Very long URL"
-        ],
-        "timestamp": "2026-05-11T02:12:28.601977"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219067587-Entering-One-to-One-Slips-Online",
-        "domain": "bniconnect.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:29.302404"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/open/forgetPassword?concept=connect",
-        "domain": "bniconnectglobal.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:33.848797"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219067347-CHAPTER-OPERATIONS-ENTERING-A-NEW-APPLICATION",
-        "domain": "bniconnect.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:46.872451"
+        "timestamp": "2026-05-11T02:18:26.571589"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -340,22 +183,106 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:48.299165"
+        "timestamp": "2026-05-11T02:18:27.115449"
     },
     {
-        "url": "https://bninystate.com/ny-rochester-bni---rapid-referrals/en-US/memberdetails?encryptedMemberId=8LhaJPTZ%2B1CjiW6SvHJHlg%3D%3D&cmsv3=true&name=John+Gerber",
-        "domain": "bninystate.com",
+        "url": "https://www.bniconnectglobal.com/web/open/forgetPassword?concept=connect",
+        "domain": "bniconnectglobal.com",
         "status": "Suspicious",
         "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.52,
+        "entropy": 3.41,
         "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Random-looking domain pattern",
-            "Very long URL"
+            "Suspicious keywords: password",
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:52.843158"
+        "timestamp": "2026-05-11T02:18:47.975741"
+    },
+    {
+        "url": "https://bnisoutheast.com/img/site/5e17780faf896c958d5be2d2.pdf",
+        "domain": "bnisoutheast.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.62,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:26.547369"
+    },
+    {
+        "url": "https://bnitos.com/ca-nacapp/",
+        "domain": "bnitos.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.12,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-05-11T02:18:26.665322"
+    },
+    {
+        "url": "https://bnibandungutara.com/in/index",
+        "domain": "bnibandungutara.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.54,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:26.899290"
+    },
+    {
+        "url": "https://bniarizona.com/en-US/chapterdetail?chapterId=qSEu2cVN1Bjq%2BLxTkPa5bw%3D%3D&name=BNI+BNI+Community+Connectors",
+        "domain": "bniarizona.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.24,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:28.054860"
+    },
+    {
+        "url": "https://bnihouston.com/en-US/memberdetails?encryptedMemberId=2zYSczfIp6VmC9q2B5kCbg%3D%3D&name=Andrew+Hale",
+        "domain": "bnihouston.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.32,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:28.709115"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/",
+        "domain": "qris-bni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash"
+        ],
+        "timestamp": "2026-05-11T02:18:29.198006"
     },
     {
         "url": "https://manhattanbni.com/img/site/67b9219357c13e003143a8a2.pdf",
@@ -369,217 +296,21 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:10.879310"
+        "timestamp": "2026-05-11T02:18:30.067291"
     },
     {
-        "url": "https://bni-pta.co.za/en-ZA/resources",
-        "domain": "bni-pta.co.za",
+        "url": "https://bninorthcarolinacore.com/en-US/index",
+        "domain": "bninorthcarolinacore.com",
         "status": "Low",
         "score": 55,
         "brand_similarity": 100.0,
-        "entropy": 3.39,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash"
-        ],
-        "timestamp": "2026-05-11T02:12:22.723775"
-    },
-    {
-        "url": "https://bninystate.com/en-US/memberdetails?encryptedMemberId=8LhaJPTZ%2B1CjiW6SvHJHlg%3D%3D&cmsv3=true&name=John+Gerber",
-        "domain": "bninystate.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.52,
+        "entropy": 3.49,
         "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:23.930405"
-    },
-    {
-        "url": "https://bnimidamerica.com/en-US/bniconnect",
-        "domain": "bnimidamerica.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.29,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:25.802976"
-    },
-    {
-        "url": "https://www2.bni.com/rs/166-SUM-744/images/GC25%20Agenda%20FAQs%20Final.pdf?version=0",
-        "domain": "bni.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 2.81,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:25.985587"
-    },
-    {
-        "url": "https://socalbni.com/en-US/resource",
-        "domain": "socalbni.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:26.098725"
-    },
-    {
-        "url": "https://bnitennessee.com/en-US/accelerated_membership",
-        "domain": "bnitennessee.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.08,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:28.008749"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/register?countryId=10",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:31.190395"
-    },
-    {
-        "url": "https://bnihouston.com/en-US/chapterdetail?chapterId=m0hyXN0C3ZAZfPdFTEZIAg%3D%3D&name=BNI+BNI+MC+Money+Makers",
-        "domain": "bnihouston.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.32,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:32.210010"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2029&chapterId=30629",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:32.341953"
-    },
-    {
-        "url": "https://bniamerica.com/en-US/chapterdetail?chapterId=c6hLl6gUA%2Fj%2B0B62%2BzWN7w%3D%3D&name=BNI+BNI+Excel",
-        "domain": "bniamerica.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.24,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:32.480519"
-    },
-    {
-        "url": "https://www.bni.com/",
-        "domain": "bni.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 2.81,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:44.669431"
-    },
-    {
-        "url": "https://www.bni.com/the-latest/blog-news/so-much-more-than-just-a-tick/",
-        "domain": "bni.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 2.81,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:45.064192"
-    },
-    {
-        "url": "https://bnitos.com/multi-state/",
-        "domain": "bnitos.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.12,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-11T02:12:45.213106"
-    },
-    {
-        "url": "https://www.bnipodcast.com/2013/10/02/build-visibility-bni-connect/",
-        "domain": "bnipodcast.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.52,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:45.424003"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/v2/dashboard",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-11T02:12:46.264495"
+        "timestamp": "2026-05-11T02:18:31.920364"
     },
     {
         "url": "https://bnitampa.com/en-US/chapterdetail?chapterId=bv2YQzKCogFlQ7D90M%2FGcA%3D%3D&name=BNI+BNI+Direct+to+Success",
@@ -593,7 +324,189 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:46.996442"
+        "timestamp": "2026-05-11T02:18:32.992208"
+    },
+    {
+        "url": "https://bniamerica.com/en-US/chapterdetail?chapterId=c6hLl6gUA%2Fj%2B0B62%2BzWN7w%3D%3D&name=BNI+BNI+Excel",
+        "domain": "bniamerica.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.24,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:33.017193"
+    },
+    {
+        "url": "https://api.bniconnectglobal.com/core-api/public/terms-of-service/MOBILE/pdf",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:33.088048"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=1969&chapterId=25745",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:33.118722"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/v2/dashboard",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:37.961719"
+    },
+    {
+        "url": "https://bnimidamerica.com/en-US/bniconnect",
+        "domain": "bnimidamerica.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.29,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:38.864847"
+    },
+    {
+        "url": "https://socalbni.com/en-US/resource",
+        "domain": "socalbni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:43.637976"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2029&chapterId=30629",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:44.013864"
+    },
+    {
+        "url": "https://bniamerica.com/en-US/index",
+        "domain": "bniamerica.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.24,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:44.227776"
+    },
+    {
+        "url": "https://bnioregon.com/en-US/memberresources",
+        "domain": "bnioregon.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.18,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:44.361026"
+    },
+    {
+        "url": "https://www.bnipodcast.com/2013/10/02/build-visibility-bni-connect/",
+        "domain": "bnipodcast.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.52,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:44.672587"
+    },
+    {
+        "url": "https://bninystate.com/en-US/memberdetails?encryptedMemberId=8LhaJPTZ%2B1CjiW6SvHJHlg%3D%3D&cmsv3=true&name=John+Gerber",
+        "domain": "bninystate.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.52,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:47.015221"
+    },
+    {
+        "url": "https://admin.bni.co.uk/forgottenpassword.php",
+        "domain": "bni.co.uk",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 2.95,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: password"
+        ],
+        "timestamp": "2026-05-11T02:18:47.027115"
+    },
+    {
+        "url": "https://bni-pta.co.za/en-ZA/resources",
+        "domain": "bni-pta.co.za",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.39,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash"
+        ],
+        "timestamp": "2026-05-11T02:18:47.315114"
     },
     {
         "url": "https://bnitampa.com/fl-tampa-bay-bni-direct-to-success/en-US/index",
@@ -607,10 +520,24 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:47.249432"
+        "timestamp": "2026-05-11T02:18:48.160526"
     },
     {
-        "url": "https://www.bniconnectglobal.com/web/",
+        "url": "https://developer.bnieuropa.pt/",
+        "domain": "bnieuropa.pt",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:49.128615"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/register?countryId=10",
         "domain": "bniconnectglobal.com",
         "status": "Low",
         "score": 55,
@@ -621,6 +548,48 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-11T02:12:53.205927"
+        "timestamp": "2026-05-11T02:18:49.325194"
+    },
+    {
+        "url": "https://socalbni.com/en-US/chapterdetail?chapterId=BTCOBo9Spt6BWqyMD2hkxw%3D%3D&name=BNI+Abundance+BNI+-+Online",
+        "domain": "socalbni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:50.219559"
+    },
+    {
+        "url": "https://bnitos.com/privacy/",
+        "domain": "bnitos.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.12,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-05-11T02:18:50.367861"
+    },
+    {
+        "url": "https://trianglebni.com/en-US/MemberResources",
+        "domain": "trianglebni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.64,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-11T02:18:50.761517"
     }
 ]
