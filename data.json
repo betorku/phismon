@@ -13,7 +13,7 @@
             "Suspicious paths: /login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T02:05:33.057369"
+        "timestamp": "2026-05-12T08:26:21.009246"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com/",
@@ -29,36 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T02:05:33.881812"
-    },
-    {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-12T02:05:53.498151"
-    },
-    {
-        "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
-        "domain": "bnisurabaya.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.46,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-12T02:06:07.394596"
+        "timestamp": "2026-05-12T08:27:09.089023"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
@@ -72,6 +43,21 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T02:06:13.680908"
+        "timestamp": "2026-05-12T08:26:16.311145"
+    },
+    {
+        "url": "https://bandung.beritakini.co.id/amp/311728/tips-aman-login-wondr-by-bni-saat-ganti-smartphone-tanpa-risiko-data-hilang",
+        "domain": "beritakini.co.id",
+        "status": "Low",
+        "score": 50,
+        "brand_similarity": 80.0,
+        "entropy": 3.38,
+        "hosting_provider": null,
+        "reasons": [
+            "High brand similarity (80.0)",
+            "Suspicious keywords: login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T08:26:16.712388"
     }
 ]
