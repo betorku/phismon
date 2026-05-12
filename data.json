@@ -1,1 +1,77 @@
-[]
+[
+    {
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T02:05:33.057369"
+    },
+    {
+        "url": "https://deva-portal.bni-ecollection.com/",
+        "domain": "bni-ecollection.com",
+        "status": "Suspicious",
+        "score": 75,
+        "brand_similarity": 100.0,
+        "entropy": 3.33,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: portal",
+            "Contains dash",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T02:05:33.881812"
+    },
+    {
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-05-12T02:05:53.498151"
+    },
+    {
+        "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
+        "domain": "bnisurabaya.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.46,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T02:06:07.394596"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T02:06:13.680908"
+    }
+]
