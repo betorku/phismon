@@ -1,21 +1,5 @@
 [
     {
-        "url": "https://bniindonesia.com/web/login",
-        "domain": "bniindonesia.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100,
-        "entropy": 3.28,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100)",
-            "Suspicious keywords: login",
-            "Suspicious paths: /login",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-12T13:54:12.987613"
-    },
-    {
         "url": "https://deva-portal.bni-ecollection.com/",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -29,39 +13,25 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T13:53:46.805576"
+        "timestamp": "2026-05-12T19:28:40.649031"
     },
     {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
         "status": "Suspicious",
         "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-05-12T13:55:08.806966"
-    },
-    {
-        "url": "https://merchant.qris-bni.com/",
-        "domain": "qris-bni.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.42,
+        "entropy": 3.16,
         "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Contains dash"
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T13:53:50.698216"
+        "timestamp": "2026-05-12T19:29:24.778885"
     },
     {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
         "domain": "bniconnectglobal.com",
         "status": "Low",
         "score": 55,
@@ -72,20 +42,48 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T13:55:05.580469"
+        "timestamp": "2026-05-12T19:28:37.509359"
     },
     {
-        "url": "https://bizchannel.cimbniaga.co.id/corp/",
-        "domain": "cimbniaga.co.id",
+        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy/",
+        "domain": "bnisekuritas.co.id",
         "status": "Low",
         "score": 55,
         "brand_similarity": 100.0,
-        "entropy": 3.19,
+        "entropy": 3.68,
         "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T13:55:16.072783"
+        "timestamp": "2026-05-12T19:28:38.255978"
+    },
+    {
+        "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
+        "domain": "bnisurabaya.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.46,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T19:28:57.763106"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2804&chapterId=31866",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-12T19:29:23.737656"
     }
 ]
