@@ -1,5 +1,21 @@
 [
     {
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-13T19:32:56.237836"
+    },
+    {
         "url": "https://deva-portal.bni-ecollection.com/",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -13,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-13T14:07:47.211753"
+        "timestamp": "2026-05-13T19:32:43.624533"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -28,7 +44,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-05-13T14:07:12.004232"
+        "timestamp": "2026-05-13T19:32:23.058043"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -43,7 +59,7 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-13T14:07:19.328707"
+        "timestamp": "2026-05-13T19:32:23.238475"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
@@ -57,35 +73,7 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-13T14:07:52.559406"
-    },
-    {
-        "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
-        "domain": "bnisurabaya.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.46,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-13T14:07:52.606134"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=743&chapterId=771",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-13T14:07:55.657519"
+        "timestamp": "2026-05-13T19:32:45.515879"
     },
     {
         "url": "https://bandung.beritakini.co.id/amp/311728/tips-aman-login-wondr-by-bni-saat-ganti-smartphone-tanpa-risiko-data-hilang",
@@ -100,6 +88,6 @@
             "Suspicious keywords: login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-13T14:07:24.008208"
+        "timestamp": "2026-05-13T19:32:42.605120"
     }
 ]
