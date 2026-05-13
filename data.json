@@ -13,7 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T19:28:40.649031"
+        "timestamp": "2026-05-13T02:07:52.194382"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -28,35 +28,22 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T19:29:24.778885"
+        "timestamp": "2026-05-13T02:07:52.568282"
     },
     {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
+            "Contains dash",
+            "Hosted on aws"
         ],
-        "timestamp": "2026-05-12T19:28:37.509359"
-    },
-    {
-        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy/",
-        "domain": "bnisekuritas.co.id",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.68,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-05-12T19:28:38.255978"
+        "timestamp": "2026-05-13T02:08:24.649469"
     },
     {
         "url": "https://bnisurabaya.com/glorify/in/memberdetails?encryptedMemberId=csyHC5qIfzr1h99aY0BziQ%3D%3D&name=Yan+Purnomo+Gunawan",
@@ -70,10 +57,10 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T19:28:57.763106"
+        "timestamp": "2026-05-13T02:08:09.798093"
     },
     {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2804&chapterId=31866",
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
         "domain": "bniconnectglobal.com",
         "status": "Low",
         "score": 55,
@@ -84,6 +71,34 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-05-12T19:29:23.737656"
+        "timestamp": "2026-05-13T02:08:09.987623"
+    },
+    {
+        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy/",
+        "domain": "bnisekuritas.co.id",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.68,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-05-13T02:08:24.225073"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/",
+        "domain": "qris-bni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash"
+        ],
+        "timestamp": "2026-05-13T02:08:25.224807"
     }
 ]
