@@ -1,1 +1,91 @@
-[]
+[
+    {
+        "url": "https://deva-portal.bni-ecollection.com",
+        "domain": "bni-ecollection.com",
+        "status": "Suspicious",
+        "score": 75,
+        "brand_similarity": 100.0,
+        "entropy": 3.33,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: portal",
+            "Contains dash",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-01T02:40:20.730200"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-01T02:40:19.638206"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/forgot-password",
+        "domain": "qris-bni.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: password",
+            "Contains dash"
+        ],
+        "timestamp": "2026-06-01T02:40:20.756680"
+    },
+    {
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-01T02:40:54.531337"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-01T02:40:15.077235"
+    },
+    {
+        "url": "https://merchant.qris-bni.com",
+        "domain": "qris-bni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash"
+        ],
+        "timestamp": "2026-06-01T02:40:31.157982"
+    }
+]
