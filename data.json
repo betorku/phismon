@@ -1,18 +1,35 @@
 [
     {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-02T02:38:39.824525"
+    },
+    {
+        "url": "https://deva-portal.bni-ecollection.com",
+        "domain": "bni-ecollection.com",
         "status": "Suspicious",
-        "score": 65,
+        "score": 75,
         "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
+        "entropy": 3.33,
+        "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
+            "Suspicious keywords: portal",
             "Contains dash",
-            "Hosted on aws"
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-01T21:21:50.193647"
+        "timestamp": "2026-06-02T02:38:57.562078"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -27,22 +44,22 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-01T21:22:24.609641"
+        "timestamp": "2026-06-02T02:38:51.851920"
     },
     {
-        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
-        "domain": "bnifinance.co.id",
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
         "status": "Suspicious",
         "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.16,
-        "hosting_provider": null,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Suspicious keywords: payment",
-            "Random-looking domain pattern"
+            "Contains dash",
+            "Hosted on aws"
         ],
-        "timestamp": "2026-06-01T21:22:32.394926"
+        "timestamp": "2026-06-02T02:38:57.784742"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -56,6 +73,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-01T21:22:05.341118"
+        "timestamp": "2026-06-02T02:38:54.217798"
     }
 ]
