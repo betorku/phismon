@@ -13,22 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-03T10:43:44.154413"
-    },
-    {
-        "url": "https://merchant.qris-bni.com/forgot-password",
-        "domain": "qris-bni.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.42,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password",
-            "Contains dash"
-        ],
-        "timestamp": "2026-06-03T10:43:30.319048"
+        "timestamp": "2026-06-03T16:17:32.032190"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -43,7 +28,22 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-03T10:44:12.018959"
+        "timestamp": "2026-06-03T16:17:59.655771"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/forgot-password",
+        "domain": "qris-bni.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: password",
+            "Contains dash"
+        ],
+        "timestamp": "2026-06-03T16:18:01.417326"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -57,20 +57,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-03T10:43:55.698810"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-03T10:43:56.110094"
+        "timestamp": "2026-06-03T16:17:56.139614"
     }
 ]
