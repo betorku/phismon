@@ -1,21 +1,5 @@
 [
     {
-        "url": "https://bniindonesia.com/web/login",
-        "domain": "bniindonesia.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100,
-        "entropy": 3.28,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100)",
-            "Suspicious keywords: login",
-            "Suspicious paths: /login",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-04T14:34:25.480370"
-    },
-    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -29,7 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-04T14:34:11.341694"
+        "timestamp": "2026-06-04T19:54:32.913251"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -44,7 +28,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-04T14:34:39.253506"
+        "timestamp": "2026-06-04T19:54:31.050779"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -59,21 +43,7 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-04T14:34:40.359149"
-    },
-    {
-        "url": "https://bnitos.com/vietnam-dpnpp",
-        "domain": "bnitos.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.12,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-04T14:34:38.959459"
+        "timestamp": "2026-06-04T19:55:20.035873"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -87,7 +57,7 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-04T14:34:40.070568"
+        "timestamp": "2026-06-04T19:54:31.860133"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
@@ -101,6 +71,6 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-04T14:34:40.799488"
+        "timestamp": "2026-06-04T19:54:47.877021"
     }
 ]
