@@ -1,5 +1,21 @@
 [
     {
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-04T14:34:25.480370"
+    },
+    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -13,37 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-04T09:44:02.813176"
-    },
-    {
-        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
-        "domain": "bnifinance.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.16,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: payment",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-04T09:43:41.112347"
-    },
-    {
-        "url": "https://merchant.qris-bni.com/forgot-password",
-        "domain": "qris-bni.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.42,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password",
-            "Contains dash"
-        ],
-        "timestamp": "2026-06-04T09:44:03.319622"
+        "timestamp": "2026-06-04T14:34:11.341694"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -58,7 +44,36 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-04T09:44:04.142393"
+        "timestamp": "2026-06-04T14:34:39.253506"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/forgot-password",
+        "domain": "qris-bni.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: password",
+            "Contains dash"
+        ],
+        "timestamp": "2026-06-04T14:34:40.359149"
+    },
+    {
+        "url": "https://bnitos.com/vietnam-dpnpp",
+        "domain": "bnitos.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.12,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-04T14:34:38.959459"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -72,7 +87,7 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-04T09:43:18.053100"
+        "timestamp": "2026-06-04T14:34:40.070568"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
@@ -86,6 +101,6 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-04T09:43:29.166168"
+        "timestamp": "2026-06-04T14:34:40.799488"
     }
 ]
