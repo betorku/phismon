@@ -1,21 +1,5 @@
 [
     {
-        "url": "https://bniindonesia.com/web/login",
-        "domain": "bniindonesia.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100,
-        "entropy": 3.28,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100)",
-            "Suspicious keywords: login",
-            "Suspicious paths: /login",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-05T02:16:50.960409"
-    },
-    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -29,7 +13,52 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-05T02:16:14.669855"
+        "timestamp": "2026-06-05T09:31:28.308840"
+    },
+    {
+        "url": "https://support.bniconnect.com/hc/en-us/articles/219066217-The-BNI-Connect-Landing-Page-For-Members",
+        "domain": "bniconnect.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 2.99,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-05T09:30:57.396144"
+    },
+    {
+        "url": "https://support.bniconnect.com/hc/en-us/articles/20786809693581-Welcome-to-BNI-Getting-Logged-In",
+        "domain": "bniconnect.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 2.99,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-05T09:31:08.636893"
+    },
+    {
+        "url": "https://support.bniconnect.com/hc/en-us/categories/20303592907277",
+        "domain": "bniconnect.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 2.99,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-05T09:31:09.426925"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -44,7 +73,7 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-05T02:16:26.621895"
+        "timestamp": "2026-06-05T09:31:13.389504"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -59,7 +88,64 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-05T02:16:48.097825"
+        "timestamp": "2026-06-05T09:31:28.937060"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-05T09:32:01.813025"
+    },
+    {
+        "url": "https://bni.la/en-US/member_login_help",
+        "domain": "bni.la",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 2.58,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: login"
+        ],
+        "timestamp": "2026-06-05T09:30:57.951288"
+    },
+    {
+        "url": "https://growwithbni.bni.com/welcome",
+        "domain": "bni.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 2.81,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-05T09:31:14.036557"
+    },
+    {
+        "url": "https://www.bnisekuritas.co.id",
+        "domain": "bnisekuritas.co.id",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.68,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-05T09:31:14.274805"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -73,6 +159,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-05T02:16:12.092051"
+        "timestamp": "2026-06-05T09:31:48.419982"
     }
 ]
