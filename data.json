@@ -1,21 +1,5 @@
 [
     {
-        "url": "https://bniindonesia.com/web/login",
-        "domain": "bniindonesia.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100,
-        "entropy": 3.28,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100)",
-            "Suspicious keywords: login",
-            "Suspicious paths: /login",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-05T14:25:16.312134"
-    },
-    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -29,7 +13,22 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-05T14:25:15.231752"
+        "timestamp": "2026-06-05T19:42:26.613921"
+    },
+    {
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-05T19:42:27.175119"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -44,7 +43,21 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-05T14:25:25.384976"
+        "timestamp": "2026-06-05T19:42:27.336430"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-05T19:41:52.817361"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -58,6 +71,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-05T14:25:36.806923"
+        "timestamp": "2026-06-05T19:42:28.603803"
     }
 ]
