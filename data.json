@@ -13,22 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-06T02:07:29.031739"
-    },
-    {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-06T02:07:45.407114"
+        "timestamp": "2026-06-06T08:24:28.463277"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -43,7 +28,7 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-06T02:07:56.520568"
+        "timestamp": "2026-06-06T08:23:54.013182"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -58,21 +43,37 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-06T02:07:56.887672"
+        "timestamp": "2026-06-06T08:24:11.138154"
     },
     {
-        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy",
-        "domain": "bnisekuritas.co.id",
-        "status": "Low",
-        "score": 55,
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.68,
-        "hosting_provider": null,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
+            "Contains dash",
+            "Hosted on aws"
         ],
-        "timestamp": "2026-06-06T02:07:29.467895"
+        "timestamp": "2026-06-06T08:24:11.358982"
+    },
+    {
+        "url": "https://www.bni-am.co.id/en/csr-activities-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Contains dash",
+            "Hosted on aws"
+        ],
+        "timestamp": "2026-06-06T08:24:26.658507"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -86,6 +87,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-06T02:07:56.818729"
+        "timestamp": "2026-06-06T08:23:52.408007"
     }
 ]
