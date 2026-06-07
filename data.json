@@ -1,5 +1,21 @@
 [
     {
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-07T19:06:25.876274"
+    },
+    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -13,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-07T13:21:27.864212"
+        "timestamp": "2026-06-07T19:06:29.119195"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -28,7 +44,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-07T13:21:29.860806"
+        "timestamp": "2026-06-07T19:06:20.450013"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -43,7 +59,7 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-07T13:21:41.778536"
+        "timestamp": "2026-06-07T19:06:31.058299"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -57,6 +73,20 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-07T13:21:53.572435"
+        "timestamp": "2026-06-07T19:06:31.298071"
+    },
+    {
+        "url": "https://www.bnisekuritas.co.id/en/systems-privacy-policy",
+        "domain": "bnisekuritas.co.id",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.68,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-07T19:06:34.149514"
     }
 ]
