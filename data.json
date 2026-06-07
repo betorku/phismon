@@ -13,37 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-07T08:45:05.533503"
-    },
-    {
-        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
-        "domain": "bnifinance.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.16,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: payment",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-07T08:44:40.479187"
-    },
-    {
-        "url": "https://merchant.qris-bni.com/forgot-password",
-        "domain": "qris-bni.com",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.42,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password",
-            "Contains dash"
-        ],
-        "timestamp": "2026-06-07T08:45:04.843357"
+        "timestamp": "2026-06-07T13:21:27.864212"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -58,7 +28,22 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-07T08:45:19.772199"
+        "timestamp": "2026-06-07T13:21:29.860806"
+    },
+    {
+        "url": "https://merchant.qris-bni.com/forgot-password",
+        "domain": "qris-bni.com",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.42,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: password",
+            "Contains dash"
+        ],
+        "timestamp": "2026-06-07T13:21:41.778536"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -72,6 +57,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-07T08:45:06.648841"
+        "timestamp": "2026-06-07T13:21:53.572435"
     }
 ]
