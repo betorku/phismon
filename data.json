@@ -13,7 +13,22 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-07T02:34:40.778066"
+        "timestamp": "2026-06-07T08:45:05.533503"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-07T08:44:40.479187"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -28,7 +43,7 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-07T02:34:36.942399"
+        "timestamp": "2026-06-07T08:45:04.843357"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -43,7 +58,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-07T02:34:42.427394"
+        "timestamp": "2026-06-07T08:45:19.772199"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -57,6 +72,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-07T02:34:43.450591"
+        "timestamp": "2026-06-07T08:45:06.648841"
     }
 ]
