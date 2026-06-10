@@ -1,53 +1,5 @@
 [
     {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/219066377-Password-Reset-Process",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-10T02:29:01.053296"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/37594964997901-How-do-I-reset-my-BNI-BUSINESS-BUILDER-password",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-10T02:29:11.530150"
-    },
-    {
-        "url": "https://support.bniconnect.com/hc/en-us/articles/115005126968-Reset-Your-Password-Mobile-App",
-        "domain": "bniconnect.com",
-        "status": "Critical",
-        "score": 85,
-        "brand_similarity": 100.0,
-        "entropy": 2.99,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: password, reset",
-            "Random-looking domain pattern",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-10T02:29:12.164450"
-    },
-    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -61,22 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-10T02:29:00.436032"
-    },
-    {
-        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
-        "domain": "bnifinance.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.16,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Suspicious keywords: payment",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-10T02:29:38.764466"
+        "timestamp": "2026-06-10T09:40:55.021906"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -91,7 +28,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-10T02:29:39.157619"
+        "timestamp": "2026-06-10T09:40:52.259489"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -106,7 +43,22 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-06-10T02:29:41.984137"
+        "timestamp": "2026-06-10T09:40:55.322704"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-10T09:41:01.645569"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -120,20 +72,20 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-10T02:29:09.479326"
+        "timestamp": "2026-06-10T09:40:48.813698"
     },
     {
-        "url": "https://help.bions.id/docs/lupa-password-dan-cara-reset-password",
-        "domain": "bions.id",
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
+        "domain": "bniconnectglobal.com",
         "status": "Low",
-        "score": 50,
-        "brand_similarity": 80.0,
-        "entropy": 2.75,
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
         "hosting_provider": null,
         "reasons": [
-            "High brand similarity (80.0)",
-            "Suspicious keywords: password, reset"
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-10T02:29:12.987689"
+        "timestamp": "2026-06-10T09:40:51.415550"
     }
 ]
