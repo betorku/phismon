@@ -13,7 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-10T20:11:51.216481"
+        "timestamp": "2026-06-11T02:38:48.526191"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -28,36 +28,22 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-10T20:11:40.186491"
+        "timestamp": "2026-06-11T02:38:21.200621"
     },
     {
-        "url": "https://merchant.qris-bni.com/forgot-password",
-        "domain": "qris-bni.com",
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
         "status": "Suspicious",
         "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.42,
+        "entropy": 3.16,
         "hosting_provider": null,
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Suspicious keywords: password",
-            "Contains dash"
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-10T20:11:56.295298"
-    },
-    {
-        "url": "https://bnidirt-bnl.com",
-        "domain": "bnidirt-bnl.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100,
-        "entropy": 3.51,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100)",
-            "Contains dash"
-        ],
-        "timestamp": "2026-06-10T20:11:53.374606"
+        "timestamp": "2026-06-11T02:38:33.462249"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -71,20 +57,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-10T20:11:53.605043"
-    },
-    {
-        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
-        "domain": "bniconnectglobal.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.41,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-10T20:11:55.970313"
+        "timestamp": "2026-06-11T02:38:29.773597"
     }
 ]
