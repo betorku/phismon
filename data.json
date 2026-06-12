@@ -13,7 +13,22 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-12T14:34:24.348239"
+        "timestamp": "2026-06-12T19:52:53.526692"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-12T19:52:49.131794"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -28,21 +43,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-12T14:34:45.214464"
-    },
-    {
-        "url": "https://bnitos.com/vietnam-dpnpp",
-        "domain": "bnitos.com",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.12,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-12T14:34:08.610995"
+        "timestamp": "2026-06-12T19:53:11.110534"
     },
     {
         "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2492&chapterId=2498",
@@ -56,7 +57,7 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-12T14:34:24.488646"
+        "timestamp": "2026-06-12T19:53:05.858740"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -70,6 +71,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-12T14:34:26.213029"
+        "timestamp": "2026-06-12T19:53:07.174893"
     }
 ]
