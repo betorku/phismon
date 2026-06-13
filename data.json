@@ -13,22 +13,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-13T02:15:34.401922"
-    },
-    {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-06-13T02:15:52.717640"
+        "timestamp": "2026-06-13T08:46:56.546348"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -42,7 +27,7 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-13T02:15:40.882141"
+        "timestamp": "2026-06-13T08:46:52.643038"
     },
     {
         "url": "https://bizchannel.cimbniaga.co.id/corp",
@@ -56,6 +41,20 @@
             "Very high brand similarity (100.0)",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-13T02:15:53.543601"
+        "timestamp": "2026-06-13T08:46:56.632594"
+    },
+    {
+        "url": "https://www.bniconnectglobal.com/web/applications/applyandpay?countryId=10&regionId=2029&chapterId=11234",
+        "domain": "bniconnectglobal.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.41,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-13T08:47:30.989914"
     }
 ]
