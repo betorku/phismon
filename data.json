@@ -13,7 +13,7 @@
             "Suspicious paths: /login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-13T13:25:05.161646"
+        "timestamp": "2026-06-13T19:08:41.714156"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com",
@@ -29,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-13T13:25:24.422262"
+        "timestamp": "2026-06-13T19:08:39.223055"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -44,21 +44,22 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-13T13:25:41.796349"
+        "timestamp": "2026-06-13T19:08:06.714814"
     },
     {
-        "url": "https://bizchannel.cimbniaga.co.id/corp",
-        "domain": "cimbniaga.co.id",
-        "status": "Low",
-        "score": 55,
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.19,
-        "hosting_provider": null,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
+            "Contains dash",
+            "Hosted on aws"
         ],
-        "timestamp": "2026-06-13T13:25:06.913667"
+        "timestamp": "2026-06-13T19:08:39.751663"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -72,6 +73,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-13T13:25:26.337974"
+        "timestamp": "2026-06-13T19:08:22.815107"
     }
 ]
