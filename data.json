@@ -1,5 +1,21 @@
 [
     {
+        "url": "https://bniindonesia.com/web/login",
+        "domain": "bniindonesia.com",
+        "status": "Critical",
+        "score": 85,
+        "brand_similarity": 100,
+        "entropy": 3.28,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100)",
+            "Suspicious keywords: login",
+            "Suspicious paths: /login",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-14T09:19:17.955723"
+    },
+    {
         "url": "https://deva-portal.bni-ecollection.com",
         "domain": "bni-ecollection.com",
         "status": "Suspicious",
@@ -13,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-14T02:38:16.569405"
+        "timestamp": "2026-06-14T09:19:01.295652"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -28,7 +44,7 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-14T02:38:29.388056"
+        "timestamp": "2026-06-14T09:19:01.886831"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -43,21 +59,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-14T02:38:42.572445"
-    },
-    {
-        "url": "https://bizchannel.cimbniaga.co.id/corp",
-        "domain": "cimbniaga.co.id",
-        "status": "Low",
-        "score": 55,
-        "brand_similarity": 100.0,
-        "entropy": 3.19,
-        "hosting_provider": null,
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
-        ],
-        "timestamp": "2026-06-14T02:38:23.685858"
+        "timestamp": "2026-06-14T09:19:24.043641"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -71,6 +73,20 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-14T02:38:26.183941"
+        "timestamp": "2026-06-14T09:19:02.274785"
+    },
+    {
+        "url": "https://bizchannel.cimbniaga.co.id/corp",
+        "domain": "cimbniaga.co.id",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.19,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-14T09:19:23.540785"
     }
 ]
