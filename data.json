@@ -13,7 +13,7 @@
             "Suspicious paths: /login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-14T13:28:07.972204"
+        "timestamp": "2026-06-14T19:09:13.945367"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com",
@@ -29,7 +29,22 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-06-14T13:27:55.462458"
+        "timestamp": "2026-06-14T19:09:10.383415"
+    },
+    {
+        "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
+        "domain": "bnifinance.co.id",
+        "status": "Suspicious",
+        "score": 65,
+        "brand_similarity": 100.0,
+        "entropy": 3.16,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Suspicious keywords: payment",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-14T19:08:57.402261"
     },
     {
         "url": "https://www.bni-am.co.id/en/company-profile-bniam",
@@ -44,7 +59,21 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-06-14T13:28:08.460683"
+        "timestamp": "2026-06-14T19:09:03.059773"
+    },
+    {
+        "url": "https://bnitennessee.com/en-US/accelerated_membership",
+        "domain": "bnitennessee.com",
+        "status": "Low",
+        "score": 55,
+        "brand_similarity": 100.0,
+        "entropy": 3.08,
+        "hosting_provider": null,
+        "reasons": [
+            "Very high brand similarity (100.0)",
+            "Random-looking domain pattern"
+        ],
+        "timestamp": "2026-06-14T19:08:59.471854"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -58,6 +87,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-06-14T13:27:59.530046"
+        "timestamp": "2026-06-14T19:09:10.762443"
     }
 ]
