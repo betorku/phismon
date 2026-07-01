@@ -13,7 +13,7 @@
             "Suspicious paths: /login",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-07-01T09:29:30.782078"
+        "timestamp": "2026-07-01T14:07:42.092536"
     },
     {
         "url": "https://deva-portal.bni-ecollection.com",
@@ -29,7 +29,7 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-07-01T09:29:44.692690"
+        "timestamp": "2026-07-01T14:07:59.658372"
     },
     {
         "url": "https://merchant.qris-bni.com/forgot-password",
@@ -44,22 +44,7 @@
             "Suspicious keywords: password",
             "Contains dash"
         ],
-        "timestamp": "2026-07-01T09:29:29.427957"
-    },
-    {
-        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
-        "domain": "bni-am.co.id",
-        "status": "Suspicious",
-        "score": 65,
-        "brand_similarity": 100.0,
-        "entropy": 3.25,
-        "hosting_provider": "aws",
-        "reasons": [
-            "Very high brand similarity (100.0)",
-            "Contains dash",
-            "Hosted on aws"
-        ],
-        "timestamp": "2026-07-01T09:29:41.667410"
+        "timestamp": "2026-07-01T14:07:54.233095"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -74,21 +59,22 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-07-01T09:29:56.002403"
+        "timestamp": "2026-07-01T14:07:59.971124"
     },
     {
-        "url": "https://bizchannel.cimbniaga.co.id/corp",
-        "domain": "cimbniaga.co.id",
-        "status": "Low",
-        "score": 55,
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
+        "domain": "bni-am.co.id",
+        "status": "Suspicious",
+        "score": 65,
         "brand_similarity": 100.0,
-        "entropy": 3.19,
-        "hosting_provider": null,
+        "entropy": 3.25,
+        "hosting_provider": "aws",
         "reasons": [
             "Very high brand similarity (100.0)",
-            "Random-looking domain pattern"
+            "Contains dash",
+            "Hosted on aws"
         ],
-        "timestamp": "2026-07-01T09:29:26.364609"
+        "timestamp": "2026-07-01T14:08:00.195092"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -102,6 +88,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-07-01T09:29:30.229894"
+        "timestamp": "2026-07-01T14:07:40.911563"
     }
 ]
