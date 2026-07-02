@@ -13,10 +13,10 @@
             "Contains dash",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-07-02T08:42:07.860266"
+        "timestamp": "2026-07-02T13:29:21.145969"
     },
     {
-        "url": "https://www.bni-am.co.id/en/smartly-manage-your-finances-with-investment-strategies",
+        "url": "https://www.bni-am.co.id/en/company-profile-bniam",
         "domain": "bni-am.co.id",
         "status": "Suspicious",
         "score": 65,
@@ -28,7 +28,7 @@
             "Contains dash",
             "Hosted on aws"
         ],
-        "timestamp": "2026-07-02T08:42:05.378425"
+        "timestamp": "2026-07-02T13:29:15.188677"
     },
     {
         "url": "https://www.bnifinance.co.id/guidance-for-payment-of-installments",
@@ -43,7 +43,7 @@
             "Suspicious keywords: payment",
             "Random-looking domain pattern"
         ],
-        "timestamp": "2026-07-02T08:42:07.972608"
+        "timestamp": "2026-07-02T13:29:23.650000"
     },
     {
         "url": "https://merchant.qris-bni.com",
@@ -57,6 +57,6 @@
             "Very high brand similarity (100.0)",
             "Contains dash"
         ],
-        "timestamp": "2026-07-02T08:41:44.067358"
+        "timestamp": "2026-07-02T13:29:22.664001"
     }
 ]
